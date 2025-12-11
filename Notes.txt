@@ -1,3 +1,15 @@
+Notes to self:
+1- Scraping is done through URL
+	Ex: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22Labour%22&from=4/8/2025&to=1/12/2025&body=1,3,15376
+2- Ids Determined for body:
+	Employment Appeals Tribunal: 2
+	Equality Tribunal: 1
+	Labour Count Id: 3
+	Workplace Relations Commission: 15376
+3- q = query to search (surround with double quotes)
+3- decisions? 
+4- Async requests as per documentation? 
+
 Structure:
 1- Downloaded and set up Git
 2- Create Repo: ScraperAssessment
