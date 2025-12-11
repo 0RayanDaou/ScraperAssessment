@@ -1,0 +1,13 @@
+Structure:
+1- Downloaded and set up Git
+2- Create Repo: ScraperAssessment
+3- Cloned and connected to VSCode to GitHub
+4- Created venv for this project
+5- Downloaded the two libraries needed: scrapy and pymongo
+6- Created a MongoDB Cluster (free version)
+	6.1 Allowed access for all
+	6.2 Username: admin
+	6.3 Password: admin
+	6.4 Connection String: mongodb+srv://admin:<admin>@scrapercluster.k435ykh.mongodb.net/?appName=ScraperCluster
+Code:
+6-  
