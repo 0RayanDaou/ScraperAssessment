@@ -70,10 +70,10 @@ class HelperFunction():
 
     def constructScrapingList(self, start_date, end_date, query, body, partition):
         """
-        Could Be Dynamic, but for the purpose of the assessment will be hard coded.
         This method will take four input parameters that will help construct URLs to be scraped
         
         Args:
+        ---------------------
             start_date: Start date to get docs, format dd/MM/YYYY Ex: 7/10/2025 or 13/10/2025
             end_date: End date to get docs, format dd/MM/YYYY Ex: 7/10/2025 or 13/10/2025
             query: Query used to search for documents
@@ -84,6 +84,9 @@ class HelperFunction():
                 - Workplace Relations Commission: 15376
                 Multiple Keywords can be provided at a time separated by a comma
             partition: Select partitioning of dates in days, Ex: 1 for 1 day, 7 for a week, 30 for a month
+        Returns:
+        ---------------------
+            Urls: list of urls constructed dynamically to be used to scrape data
         """
         self.logAction('info', 'Construct Urls', 'Starting.')
         baseURL = "https://www.workplacerelations.ie/en/search/?decisions=1"
