@@ -1,12 +1,16 @@
-from Exception import *
-from Logger import Logger
+from scraper.exception.Exception import *
+from scraper.logger.Logger import Logger
 from datetime import datetime, timedelta
 import math
 
 
 class HelperFunction():
     """
-    Docstring for HelperFunctions
+    This class is used to act as a helper class, that will include functions that help al classes in this assessment.
+    It will have the below functions:
+    - logAction: Uses the logger class to log actions to log file.
+    - constructScrapingList: Takes as input start_date, end_date, query, body, and partition 
+        to construct the list of URLs to be used tto be web scrape.  
     """
 
     def __init__(self, MDB_connectionString, logFileFullPath, loggerLevel):
@@ -45,15 +49,15 @@ class HelperFunction():
 
         # Get the target function for the logging level.
         if level == 'info':
-            targetFunction = self.logger.info
+            targetFunction = self.logger.logger.info
         elif level == 'debug':
-            targetFunction = self.logger.debug
+            targetFunction = self.logger.logger.debug
         elif level == 'critical':
-            targetFunction = self.logger.critical
+            targetFunction = self.logger.logger.critical
         elif level == 'warning':
-            targetFunction = self.logger.warning
+            targetFunction = self.logger.logger.warning
         elif level == 'error':
-            targetFunction = self.logger.error
+            targetFunction = self.logger.logger.error
 
         # Compile the message to be logged.
         if customMessage is not None:
@@ -81,14 +85,24 @@ class HelperFunction():
                 Multiple Keywords can be provided at a time separated by a comma
             partition: Select partitioning of dates in days, Ex: 1 for 1 day, 7 for a week, 30 for a month
         """
+        self.logAction('info', 'Construct Urls', 'Starting.')
         baseURL = "https://www.workplacerelations.ie/en/search/?decisions=1"
         urls = []
         date_format = "%d/%m/%Y"
+        oneDayparition = timedelta(days=1)
+        partitionCount = 0
 
         # Separate provided body sequence
-        input_list = [body.split(',')]
+        input_list = body.split(',')
+        self.logAction('info', 'Construct Urls', 'Query: ' + str(query) )
+        self.logAction('info', 'Construct Urls', 'Body: ' + str(body) )
+        self.logAction('info', 'Construct Urls', 'Start Date: ' + str(start_date) )
+        self.logAction('info', 'Construct Urls', 'End Date: ' + str(end_date) )
+        self.logAction('info', 'Construct Urls', 'Partition: ' + str(partition) + ' days')
+
         # Map each item in body to its corresponding ID
-        mapped_values = [str(self.bodyMap[key]) for key in input_list if key in self.bodyMap]
+        mapped_values = [str(self.bodyMap[key]) for key in input_list if key in self.bodyMap.keys()]
+
         # Join Ids into one string
         bodyIds = ','.join(mapped_values)
 
@@ -96,20 +110,20 @@ class HelperFunction():
         try:
             arithmeticStartDate = datetime.strptime(start_date, date_format).date()
             arithmeticEndDate = datetime.strptime(end_date, date_format).date()
-        except ValueError as e:
-            self.logAction('error', 'Parse Url', 'Provided Dates do not follow expected format.')
+        except Exception as e:
+            self.logAction('error', 'Construct Urls', 'Provided Dates do not Follow Expected Format.')
             return e
         
         # Ensure parition is an integer and start date is not greater than end date 
         try:
             partition = int(partition)
             if partition <= 0:
-                self.logAction('error', 'Parse Url', 'Provided Partition is not an Integer.')
+                self.logAction('error', 'Construct Urls', 'Provided Partition is not an Integer.')
                 raise InvalidObjectType('The partition provide is not an integer, kindly provide it in days (1,2,3,4,5)')
             else:
                 partitionSteps = timedelta(days=partition)
             if arithmeticStartDate >= arithmeticEndDate:
-                self.logAction('error', 'Parse Url', 'Start Date is Greater than End Date.')
+                self.logAction('error', 'Construct Urls', 'Start Date is Greater than End Date.')
                 raise ValueError('The Start Date Provided is Greater than the End Date Provided.')
 
         except Exception as e:
@@ -119,7 +133,8 @@ class HelperFunction():
         currentStartDate = arithmeticStartDate
 
         # While the start date is less than the end date
-        while arithmeticStartDate < arithmeticEndDate:
+        while currentStartDate < arithmeticEndDate:
+            partitionCount += 1
             # Get current end date based on start date and parition step (days)
             currentEndDate = currentStartDate + partitionSteps
             # If we exceeded the end date provide by user, reset to user end date
@@ -129,15 +144,18 @@ class HelperFunction():
             # Format to expected format
             formattedStartDate = currentStartDate.strftime(date_format)
             formattedEndDate = currentEndDate.strftime(date_format)
-
             # Construct url
-            url = f"{baseURL}&q={query}&from={formattedStartDate}&to={formattedEndDate}&body={bodyIds}"
-
+            url = f'{baseURL}&q=%22{query}%22&from={formattedStartDate}&to={formattedEndDate}&body={bodyIds}'
+            
+            self.logAction('info', 'Construct Urls', 'URL ' + str(partitionCount) + ': ' + url)
+            
             # Apped to Urls list
             urls.append(url)
 
-            currentStartDate = currentEndDate
+            currentStartDate = currentEndDate + oneDayparition
         
+        self.logAction('info', 'Construct Urls', f'Finished, {len(urls)} Urls will be used for scraping')
+
         return urls
         
      

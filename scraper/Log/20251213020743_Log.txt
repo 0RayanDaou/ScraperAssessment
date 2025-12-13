@@ -1,0 +1,10 @@
+2025-12-13 02:07:43,631 | INFO | Log Initiated
+2025-12-13 02:07:43,631 | INFO | Construct Urls: Starting.
+2025-12-13 02:07:43,631 | INFO | Construct Urls: Query: labour
+2025-12-13 02:07:43,632 | INFO | Construct Urls: Body: Labour Count,Workplace Relations Commission
+2025-12-13 02:07:43,632 | INFO | Construct Urls: Start Date: 04/11/2025
+2025-12-13 02:07:43,632 | INFO | Construct Urls: End Date: 14/11/2025
+2025-12-13 02:07:43,632 | INFO | Construct Urls: Partition: 7 days
+2025-12-13 02:07:43,634 | INFO | Construct Urls: URL 1: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=04/11/2025&to=11/11/2025&body=3,15376
+2025-12-13 02:07:43,634 | INFO | Construct Urls: URL 2: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=12/11/2025&to=14/11/2025&body=3,15376
+2025-12-13 02:07:43,634 | INFO | Construct Urls: Finished, 2 Urls will be used for scraping

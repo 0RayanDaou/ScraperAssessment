@@ -1,4 +1,5 @@
 import logging
+from pathlib import Path
 cleaners = {}
 
 class Logger:
@@ -24,31 +25,23 @@ class Logger:
             filename (str): The name of the file to log to.
             level (str): The logging level. Valid levels are `DEBUG`, `INFO`, `WARNING`, `ERROR`, and `CRITICAL`.
         """
-        self.filename = filename
-        self.level = level
+        log_file_path = Path(filename)
+        log_file_path.parent.mkdir(parents=True, exist_ok=True)
 
-        # Set the logging level.
-        if level == 'DEBUG':
-            level = logging.DEBUG
-        elif level == 'INFO':
-            level = logging.INFO
-        elif level == 'WARNING':
-            level = logging.WARNING
-        elif level == 'ERROR':
-            level = logging.ERROR
-        elif level == 'CRITICAL':
-            level = logging.CRITICAL
-        else:
-            raise ValueError('Invalid logging level: {}'.format(level))
+        self.logger = logging.getLogger(str(log_file_path))
+        self.logger.setLevel(getattr(logging, level))
+        self.logger.propagate = False
 
-        # Configure the logging format.
-        logging.basicConfig(level=level,
-                             format='%(asctime)s %(levelname)s %(message)s',
-                             filename=filename,
-                             filemode='w')
+        if not self.logger.handlers:
+            handler = logging.FileHandler(log_file_path, encoding="utf-8")
+            formatter = logging.Formatter(
+                "%(asctime)s | %(levelname)s | %(message)s"
+            )
+            handler.setFormatter(formatter)
+            self.logger.addHandler(handler)
 
         # Log that the logger has been initialized.
-        self.info('Log Initiated')
+        self.logger.info('Log Initiated')
 
     def info(self, message):
         """Log a message at the `INFO` level.

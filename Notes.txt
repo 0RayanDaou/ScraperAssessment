@@ -21,5 +21,17 @@ Structure:
 	6.2 Username: admin
 	6.3 Password: admin
 	6.4 Connection String: mongodb+srv://admin:<admin>@scrapercluster.k435ykh.mongodb.net/?appName=ScraperCluster
+Scraper:
+1- Scraper is ran through a command outside the python editor. 
+2- Spider → yields Request → Scheduler → Downloader → Response → callback
+3- Start project for scraper (everytime?)
+  - scrapy startproject projectName
+  - Create Spider within ProjectName/scraper/spiders
+4- The request with relative path will be saved in scraper directory (created by engine)
+
+to call the scraper:
+	scrapy crawl documents -a start_date=04/11/2025  -a end_date=14/11/2025 -a query=labour -a body="Labour Count,Workplace Relations 	Commission" -a partition=7
+
+
 Code:
 6-  
