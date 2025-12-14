@@ -2,7 +2,8 @@ import scrapy as sp
 from pathlib import Path
 from scraper.helper.HelperFunction import HelperFunction
 from datetime import datetime
-from urllib.parse import urlparse, parse_qs
+from urllib.parse import urlparse, parse_qs, urljoin
+from items import ScraperItem
 
 class WorkplaceRelationSpider(sp.Spider):
     """
@@ -64,21 +65,51 @@ class WorkplaceRelationSpider(sp.Spider):
     def parse(self, response, partition_date):
         """
             Parses the response retrievd from each url. 
+            Fields in ScraperItems: Id, title, description, date, fileLink, partition_date, sourceURL, documentURL, fileType, filePath, fileHash
 
             Args:
             ---------------------
                 response: Url request response
                 parition_date: The date retrieved from the from section of the url
+                
             Returns:
             ---------------------
                 None
         """
-        Path('Metadata').mkdir(exist_ok=True)
-        metadataFilePath = Path('Metadata') / f'response_{partition_date}.html'
-        metadataFilePath.write_bytes(response.body)
+        for row in response.css("div.search-result"):
+            item = ScraperItem()
 
-        self.logger.info('HTML Saved')
-    
+            item['Id'] = row.css('.decision-number::text').get()
+            item['title'] = row.css('h3 a::text').get()
+            item['description'] = row.css('.description::text').get()
+            item['date'] = row.css('.decision-date::text').get()
+            item['fileLink'] = urljoin(response.url, row.css('h3 a::attr(href)').get()) 
+            item["partition_date"] = partition_date
+            item["sourceURL"] = response.url
+            documentURL = str(urljoin(response.url, row.css('h3 a::attr(href)').get()))
+            item['documentURL'] = urljoin(response.url, row.css('h3 a::attr(href)').get()) 
+
+            # gto be populated at a latter level
+            item["fileType"] = None
+            item["filePath"] = None
+            item["fileHash"] = None
+
+            # Decision step to perform requirements as provided in assesment
+            # If pdf, doc, docx then call parse_binary
+            if documentURL.endswith(('.pdf', '.doc', '.docx')):
+                yield response.follow(
+                    documentURL,
+                    callback=self.parse_binary,
+                    meta={'item': item}
+                )
+            # else parse_html
+            else:
+                yield response.follow(
+                    documentURL,
+                    callback=self.parse_html,
+                    meta={'item': item}
+                )
+
     def _extract_partition(self, url):
         """
             Extracts the from date from the url.
@@ -97,3 +128,39 @@ class WorkplaceRelationSpider(sp.Spider):
 
         # take the "from" date as the partition identifier
         return params["from"][0].replace("/", "-")
+    
+    def parse_html(self, response):
+        """
+            This method will help in the decision step of the main parse function in spider class,
+            when file is html, return file type as html and return rawContent as encoded for parsing
+
+            Args:
+            ---------------------
+                response: pass the response returned from the scraper request
+
+            Return:
+            ---------------------
+                item: returns the items with additional info provided inside
+        """
+        item = response.meta["item"]
+        item["fileType"] = "html"
+        item["rawContent"] = response.text.encode()
+        yield item
+    
+    def parse_binary(self, response):
+        """
+            This method will help in the decision step of the main parse function in spider class,
+            when file is pdf, doc, or docx, return file type as binary and return rawContent to pass to MinIO upload
+
+            Args:
+            ---------------------
+                response: pass the response returned from the scraper request
+
+            Return:
+            ---------------------
+                item: returns the items with additional info provided inside
+        """
+        item = response.meta["item"]
+        item["fileType"] = "binary"
+        item["rawContent"] = response.body
+        yield item    
