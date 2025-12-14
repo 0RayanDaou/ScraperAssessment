@@ -3,15 +3,16 @@ The following is a repository that holds the solution developed for the Web Scra
 
 ## Overview
 This project is an end-to-end document ingestion and transformation pipeline built using:
- - Scrapy
- - Docker
- - MongoDB
- - MinIO
+ - Scrapy -- Web Scraping and Parsing
+ - Docker -- Containerization/Execution
+ - MongoDB -- Metadata Storage
+ - MinIO -- Object Storage
 
-### Scrapy:
-Web scraping of Workplace Relation documents (https://www.workplacerelations.ie). 
-To start a scrapy project:
-  - scrapy startproject projectName
+Two layers are used:
+1- Scraping (Landing Layer)
+2- Transformation (Staging Layer)
+
+## Project Structure
 SCRAPERASSESSMENT/
  scraper/
    scrapy.cfg
@@ -35,6 +36,11 @@ SCRAPERASSESSMENT/
  Dockerfile
  docker-compose.yaml
  requirements.txt
+
+### Scrapy:
+Web scraping of Workplace Relation documents (https://www.workplacerelations.ie). 
+To start a scrapy project:
+  - scrapy startproject projectName
 
 
 
