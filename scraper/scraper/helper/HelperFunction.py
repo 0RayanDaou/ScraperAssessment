@@ -13,14 +13,14 @@ class HelperFunction():
         to construct the list of URLs to be used tto be web scrape.  
     """
 
-    def __init__(self, MDB_connectionString, logFileFullPath, loggerLevel):
+    def __init__(self, logFileFullPath, loggerLevel):
         # Initailize Looger Class
         self.logger = Logger(logFileFullPath, 'DEBUG')
         # Map strings to Ids that are used in the search URL
         self.bodyMap = {
             "Employment Appeals Tribunal": 2,
             "Equality Tribunal": 1,
-            "Labour Count": 3,
+            "Labour Court": 3,
             "Workplace Relations Commission": 15376
         }
 
@@ -81,7 +81,7 @@ class HelperFunction():
             body: Selections available in workplacerelations, provided as keywords mapped to ids
                 - Employment Appeals Tribunal: 2
                 - Equality Tribunal: 1
-                - Labour Count: 3
+                - Labour Court: 3
                 - Workplace Relations Commission: 15376
                 Multiple Keywords can be provided at a time separated by a comma
             partition: Select partitioning of dates in days, Ex: 1 for 1 day, 7 for a week, 30 for a month

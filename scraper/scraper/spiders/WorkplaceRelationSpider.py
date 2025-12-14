@@ -40,11 +40,11 @@ class WorkplaceRelationSpider(sp.Spider):
         self.body = body
         now = datetime.now()
         # Format the datetime object into the specified string format
-        logFileName = now.strftime('%Y%m%d%H%M%S') + '_Log.txt'
-        # Construct Log File Name and Metadata File Name with Timestamp For different Runs Monitoring
+        logFileName = 'Scraping_' + now.strftime('%Y%m%d%H%M%S') + '_Log.txt'
+        # Construct Log File Name Timestamp For different Runs Monitoring
         logFileName = Path('Log') / logFileName
         # Initialize helper class that will help construct urls based on inputs provided
-        self.helperClass = HelperFunction('', logFileFullPath = logFileName, loggerLevel='DEBUG')
+        self.helperClass = HelperFunction(logFileFullPath = logFileName, loggerLevel='DEBUG')
         # hold urls to be called by scraper
         self.urls = self.helperClass.constructScrapingList(start_date=start_date, end_date=end_date, query=query, body=self.body, partition=partition)
         self.helperClass.logAction('info', 'Spider Initiation', 'Done.')
@@ -111,7 +111,7 @@ class WorkplaceRelationSpider(sp.Spider):
                 yield response.follow(documentURL,callback=self.parse_html,meta={'item': item})
         # The below logic is for pagination
         # If items exist on this page, try next page
-        if listOfItems:
+        if listOfItems and len(listOfItems) > 0:
             current_page = response.meta.get('pageNumber', 1)
             # After receiving the items of first page, increment page number by 1
             next_page = current_page + 1

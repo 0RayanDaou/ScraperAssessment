@@ -1,7 +1,7 @@
-from pymongo import MongoClient
 from datetime import datetime
 import hashlib
 from scraper.helper.minioClient import MinioClient
+from scraper.helper.mongoClient import MongoDBClient
 import os, io
 
 # Define your item pipelines here
@@ -33,21 +33,15 @@ class ScraperPipeline:
         ---------------------
             spider: the spider opened to extract data
         """
-
-        # The below was added to allow the dubugging of the scrapy module from the terminal
-        # and at the same time run it from docker. 
-        # The scraper will become enviornment aware
-        mongo_host = os.getenv('MONGO_HOST', 'localhost')
-
-        self.mongo_client = MongoClient(f"mongodb://{mongo_host}:27017")
-        # Database name, will be able to create or reuse database
-        self.db = self.mongo_client['WorkplaceRelation_metadata']
-        # Decision collection in mongo db to store metadata as requested and defined in items.py
-        self.collection = self.db['documents_metadata']
         # Initiate MinIO Client
         # access key and secret key defined in the docker-compose.yaml
-        self.minio_client = MinioClient()
-        self.bucket = 'landing'
+        self.lnd_minio_client = MinioClient(bucketName='landing')
+        # Initialize Mongo Client to handle MongoDB operations
+        # Database name found in class
+        self.mongo_client = MongoDBClient()
+        # Get both landing and staging collections
+        self.lnd_collection = self.mongo_client.getCollection('lnd_documents_metadata')
+        self.lnd_bucket = 'landing'
 
 
     def close_spider(self, spider):
@@ -86,14 +80,14 @@ class ScraperPipeline:
         # Object Path directs to the location in MinIO
         objectPath = f"{item['body']}_{item['partition_date']}/{item['Id']}.{extension}"
         # upload file to bucket
-        self.minio_client.upload(objectPath=objectPath, raw_content=raw_content)
+        self.lnd_minio_client.upload(objectPath=objectPath, raw_content=raw_content)
         # Construct MinIO filePath
-        item['filePath'] = f"{self.bucket}/{objectPath}"
+        item['filePath'] = f"{self.lnd_bucket}/{objectPath}"
         # Remove items not needed to be inserted in MongoDB in the returned items (metadata)
         item.pop('rawContent', None)
         item.pop('body', None)
 
         # Upsert metadata to make sure than when scraping there are no duplicate values in the database
-        self.collection.update_one({'Id': item['Id']}, {'$set': dict(item)}, upsert=True)
+        self.mongo_client.upsertItem(self.lnd_collection.name, {'Id': item['Id']}, item)
 
         return item

@@ -4,12 +4,12 @@ import os
 
 class MinioClient:
     """
-        MinIO will be used the object storage location. 
+        MinIO will be used as the object storage location. 
         This class will help connect to it and upload files.
 
     """
 
-    def __init__(self):
+    def __init__(self, bucketName='landing'):
         """
             Connect to MinIO service running in Docker or locally.
             The below details in connection are the same as the one defined in docker-compose.yaml
@@ -23,7 +23,7 @@ class MinioClient:
             secure=False
         )
         # Landing is the location of file we create in.
-        self.bucket_name = "landing"
+        self.bucket_name = bucketName
     
         # Create bucket if it does not exist
         if not self.client.bucket_exists(self.bucket_name):
@@ -53,5 +53,26 @@ class MinioClient:
             content_type="application/octet-stream"
         )
 
-        # This is what you store in MongoDB
+        # This is what you store in MongoDB as filePath
         return f"{self.bucket_name}/{objectPath}"
+    
+    def download(self, objectPath):
+        """
+            This method downloads files from minio  
+
+        Args:
+        ---------------------
+            objectPath: path of the file to be downloaded from bucket
+
+        Returns:
+        ---------------------
+            rawContent: raw file bytes
+        """
+        response = self.client.get_object(
+            bucket_name=self.bucket_name,
+            object_name=objectPath
+        )
+        rawContent = response.read()
+        response.close()
+        response.release_conn()
+        return rawContent
