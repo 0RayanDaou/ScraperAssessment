@@ -20,12 +20,12 @@ services:
     image: minio/minio
     container_name: documents_minio
     restart: unless-stopped
-    command: server /data --console-address ':9001'
+    command: server /data --console-address ":9001"
     ports:
       # S3 API
-      - '9000:9000'
+      - "9000:9000"
       # Web Console
-      - '9001:9001'
+      - "9001:9001"
     volumes:
       - minio_data:/data
     environment:
@@ -38,7 +38,15 @@ services:
     depends_on:
       - mongo
       - minio
+    environment:
+      MONGO_HOST: mongo
+      MINIO_HOST: minio
+      MINIO_ACCESS_KEY: minioadmin
+      MINIO_SECRET_KEY: minioadmin
+    volumes:  
+      - ./scraper/Log:/app/scraper/Log
 
 volumes:
   mongo_data:
   minio_data:
+
