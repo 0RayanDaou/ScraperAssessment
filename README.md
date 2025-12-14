@@ -13,9 +13,9 @@ Two layers are used:
 2- Transformation (Staging Layer)
 
 ## Project Structure
-SCRAPERASSESSMENT/\n
- scraper/
-   scrapy.cfg
+1- SCRAPERASSESSMENT
+ 1.a scraper/
+   1.a.1 scrapy.cfg
    	scraper/
         spiders/
        	WorkplaceRelationSpider.py
