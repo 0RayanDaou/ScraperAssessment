@@ -9,33 +9,33 @@ This project is an end-to-end document ingestion and transformation pipeline bui
  - MinIO -- Object Storage
 
 Two layers are used:
-1- Scraping (Landing Layer)
-2- Transformation (Staging Layer)
+ - Scraping (Landing Layer)
+ - Transformation (Staging Layer)
 
 ## Project Structure
-1- SCRAPERASSESSMENT
- 1.a scraper/
-   1.a.1 scrapy.cfg
-   	scraper/
-        spiders/
-       	WorkplaceRelationSpider.py
-        exception/
-       	Exception.py
-        helper/
-       	HelperFunction.py
-	    mongoClient.py
-            minioClient.py
-        logger/
-            Logger.py
-        transformation/
-            transform.py
-        items.py
-        middlewares.py
-        pipelines.py
-        settings.py
- Dockerfile
- docker-compose.yaml
- requirements.txt
+- SCRAPERASSESSMENT
+	-  scraper/
+ 		-  scrapy.cfg
+   		- scraper/
+     		- spiders/
+       		- WorkplaceRelationSpider.py
+         	- exception/
+          		- Exception.py
+            - helper/
+            	- HelperFunction.py
+             	- mongoClient.py
+              	- minioClient.py
+          	- logger/
+          		- Logger.py
+          	 - transformation/
+          	 	- transform.py
+       - items.py
+       - middlewares.py
+       - pipelines.py
+       - settings.py
+	- Dockerfile
+ 	- docker-compose.yaml
+  	- requirements.txt
 
 ### Scrapy:
 Web scraping of Workplace Relation documents (https://www.workplacerelations.ie). 
