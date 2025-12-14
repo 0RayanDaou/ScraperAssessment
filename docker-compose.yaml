@@ -1,0 +1,44 @@
+version: "3.9"
+# Services that docker will use
+services:
+  # Mongo is used to store metadata requested in this assignment
+  # Currently a local one - can be a hosted one on MonoDB Atlas
+  mongo:
+    image: mongo:7
+    container_name: documents_mongo
+    restart: unless-stopped
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: WorkplaceRelation_metadata
+  # MinIO container (object Storage) will be used to store files, it is S3 compatible
+  # Which means store files via an S3 API in the bucket of choice, in this context it will be landing
+  # Runs locally 
+  minio:
+    image: minio/minio
+    container_name: documents_minio
+    restart: unless-stopped
+    command: server /data --console-address ':9001'
+    ports:
+      # S3 API
+      - '9000:9000'
+      # Web Console
+      - '9001:9001'
+    volumes:
+      - minio_data:/data
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+
+  scraper:
+    build: .
+    container_name: documents_scraper
+    depends_on:
+      - mongo
+      - minio
+
+volumes:
+  mongo_data:
+  minio_data:

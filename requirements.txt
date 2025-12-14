@@ -1,0 +1,6 @@
+scrapy
+pymongo
+boto3
+beautifulsoup4
+lxml
+minio
