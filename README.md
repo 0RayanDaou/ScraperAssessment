@@ -13,28 +13,26 @@ Web scraping of Workplace Relation documents (https://www.workplacerelations.ie)
 To start a scrapy project:
   - scrapy startproject projectName
 SCRAPERASSESSMENT/
-├── scraper/
-│   ├── scrapy.cfg
-│   └── scraper/
-│       ├── spiders/
-│       │   └── WorkplaceRelationSpider.py
-│       ├── exception/
-│       │   └── Exception.py
-│       ├── helper/
-│       │   └── HelperFunction.py
-│       ├── logger/
-│       │   └── Logger.py
-│       ├── transformation/
-│       │   └── transform.py
-│       ├── items.py
-│       ├── middlewares.py
-│       ├── pipelines.py
-│       ├── settings.py
-│       ├── mongoClient.py
-│       └── minioClient.py
-├── Dockerfile
-├── docker-compose.yaml
-├── requirements.txt
-├── README.md
-└── Notes.txt
+ scraper/
+   scrapy.cfg
+   	scraper/
+        spiders/
+       	WorkplaceRelationSpider.py
+        exception/
+       	Exception.py
+        helper/
+       	HelperFunction.py
+	    mongoClient.py
+            minioClient.py
+        logger/
+            Logger.py
+        transformation/
+            transform.py
+        items.py
+        middlewares.py
+        pipelines.py
+        settings.py
+ Dockerfile
+ docker-compose.yaml
+ requirements.txt
 
