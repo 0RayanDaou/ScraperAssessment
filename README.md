@@ -37,3 +37,4 @@ SCRAPERASSESSMENT/
 ├── requirements.txt
 ├── README.md
 └── Notes.txt
+
