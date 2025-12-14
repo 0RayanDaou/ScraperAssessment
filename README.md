@@ -13,7 +13,7 @@ Two layers are used:
 2- Transformation (Staging Layer)
 
 ## Project Structure
-SCRAPERASSESSMENT/
+SCRAPERASSESSMENT/\n
  scraper/
    scrapy.cfg
    	scraper/
