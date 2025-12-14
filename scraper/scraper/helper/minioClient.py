@@ -16,12 +16,7 @@ class MinioClient:
             
         """
         minio_host = os.getenv('MINIO_HOST', 'localhost')
-        self.client = Minio(
-            endpoint=f"{minio_host}:9000",
-            access_key="minioadmin",
-            secret_key="minioadmin",
-            secure=False
-        )
+        self.client = Minio(endpoint=f"{minio_host}:9000", access_key="minioadmin", secret_key="minioadmin", secure=False)
         # Landing is the location of file we create in.
         self.bucket_name = bucketName
     
@@ -45,13 +40,7 @@ class MinioClient:
         # treansform raw binary content into a file like object 
         data = BytesIO(raw_content)
 
-        self.client.put_object(
-            bucket_name=self.bucket_name,
-            object_name=objectPath,
-            data=data,
-            length=len(raw_content),
-            content_type="application/octet-stream"
-        )
+        self.client.put_object(bucket_name=self.bucket_name, object_name=objectPath, data=data, length=len(raw_content), content_type="application/octet-stream")
 
         # This is what you store in MongoDB as filePath
         return f"{self.bucket_name}/{objectPath}"
@@ -68,10 +57,8 @@ class MinioClient:
         ---------------------
             rawContent: raw file bytes
         """
-        response = self.client.get_object(
-            bucket_name=self.bucket_name,
-            object_name=objectPath
-        )
+        response = self.client.get_object(bucket_name=self.bucket_name, object_name=objectPath)
+
         rawContent = response.read()
         response.close()
         response.release_conn()
