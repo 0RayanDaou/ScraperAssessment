@@ -87,7 +87,8 @@ class WorkplaceRelationSpider(sp.Spider):
         # path to items: <div> -> <ul> -> <li class="each-item>
         # Css can find class directly with no need to move through paths
         self.helperClass.logAction('info', 'Parse Response', 'parsing responses started, items extraction in progress.')
-        for row in response.css('li.each-item'):
+        listOfItems = response.css('li.each-item')
+        for row in listOfItems:
             # Initialize item
             item = ScraperItem()
             # Populate item
@@ -104,13 +105,32 @@ class WorkplaceRelationSpider(sp.Spider):
             # Decision step to perform requirements as provided in assesment
             # If pdf, doc, docx then call parse_binary
             if documentURL.endswith(('.pdf', '.doc', '.docx')):
-                yield response.follow(documentURL,callback=self.parse_binary,meta={'item': item}
-                )
+                yield response.follow(documentURL,callback=self.parse_binary,meta={'item': item})
             # else parse_html
             else:
-                yield response.follow(documentURL,callback=self.parse_html,meta={'item': item}
-                )
-        self.helperClass.logAction('info', 'Parse Response', 'Parsing responses finished, items extraction in finalized.')
+                yield response.follow(documentURL,callback=self.parse_html,meta={'item': item})
+        # The below logic is for pagination
+        # If items exist on this page, try next page
+        if listOfItems:
+            current_page = response.meta.get('pageNumber', 1)
+            # After receiving the items of first page, increment page number by 1
+            next_page = current_page + 1
+
+            # If pageNumber in request then remove pageNumber to add new one
+            if 'pageNumber=' in response.url:
+                base_url = response.url.split('&pageNumber=')[0]
+            # If pageNumber not in request then first call the no action
+            else:
+                base_url = response.url
+            # Get url of next page
+            next_page_url = f"{base_url}&pageNumber={next_page}"
+
+            self.helperClass.logAction('info', 'Pagination', f'Following pageNumber={next_page}'
+            )
+            
+            yield response.follow(next_page_url,callback=self.parse,meta={'partition_date': response.meta['partition_date'],'pageNumber': next_page})
+
+        self.helperClass.logAction('info', 'Parse Response', 'Parsing responses finished, items extraction is finalized.')
 
     def _extract_partition(self, url):
         """
