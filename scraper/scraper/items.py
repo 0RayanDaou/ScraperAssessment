@@ -7,6 +7,9 @@ import scrapy
 
 
 class ScraperItem(scrapy.Item):
+    """
+        Dfinition of item class that scrapy uses. 
+    """
     # define the fields for your item here like:
     # name = scrapy.Field()
 
@@ -15,7 +18,6 @@ class ScraperItem(scrapy.Item):
     title = scrapy.Field()
     description = scrapy.Field()
     date = scrapy.Field()
-    fileLink = scrapy.Field()
     partition_date = scrapy.Field()
 
     # Added for clarity
@@ -25,6 +27,8 @@ class ScraperItem(scrapy.Item):
     filePath = scrapy.Field()
     fileHash = scrapy.Field()
 
-    # To pass file contact (binary to the pipeline)
+    # To pass file contact (binary to the pipeline) - Will be dropped
     rawContent = scrapy.Field()
+    # To pass body to MinIO - Will be dropped
+    body = scrapy.Field()
 

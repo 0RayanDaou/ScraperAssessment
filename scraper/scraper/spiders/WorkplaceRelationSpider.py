@@ -3,7 +3,7 @@ from pathlib import Path
 from scraper.helper.HelperFunction import HelperFunction
 from datetime import datetime
 from urllib.parse import urlparse, parse_qs, urljoin
-from items import ScraperItem
+from scraper.items import ScraperItem
 
 class WorkplaceRelationSpider(sp.Spider):
     """
@@ -12,7 +12,9 @@ class WorkplaceRelationSpider(sp.Spider):
     Way it works:
         Spider → yields Request → Scheduler → Downloader → Response → callback
     """
-    name = "documents"
+    # Unique name of the spider
+    name = 'documents'
+    allowed_domains = ['www.workplacerelations.ie', 'workplacerelations.ie']
 
     def __init__(self, start_date, end_date, query, body, partition,*args, **kwargs):
         """
@@ -35,17 +37,18 @@ class WorkplaceRelationSpider(sp.Spider):
                 None
         """
         super().__init__(*args, **kwargs)
-
+        self.body = body
         now = datetime.now()
         # Format the datetime object into the specified string format
-        logFileName = now.strftime("%Y%m%d%H%M%S") + '_Log.txt'
+        logFileName = now.strftime('%Y%m%d%H%M%S') + '_Log.txt'
         # Construct Log File Name and Metadata File Name with Timestamp For different Runs Monitoring
         logFileName = Path('Log') / logFileName
         # Initialize helper class that will help construct urls based on inputs provided
         self.helperClass = HelperFunction('', logFileFullPath = logFileName, loggerLevel='DEBUG')
         # hold urls to be called by scraper
-        self.urls = self.helperClass.constructScrapingList(start_date=start_date, end_date=end_date, query=query, body=body, partition=partition)
+        self.urls = self.helperClass.constructScrapingList(start_date=start_date, end_date=end_date, query=query, body=self.body, partition=partition)
         self.helperClass.logAction('info', 'Spider Initiation', 'Done.')
+        
     
     def start_requests(self):
         """
@@ -58,14 +61,18 @@ class WorkplaceRelationSpider(sp.Spider):
             ---------------------
                 None
         """
+        i = 0
         # For each url constructed in helper class constructScrapingList yiel request
+        self.helperClass.logAction('info', 'Start requests', 'Traversing through requests started.')
         for url in self.urls:
-            yield sp.Request(url=url, callback=self.parse, cb_kwargs={'partition_date': self._extract_partition(url)})
+            i += 1
+            self.helperClass.logAction('info', 'Initaite reqeusts', 'Request ' + str(i) + ': ' + str(url))
+            yield sp.Request(url=url, callback=self.parse, meta={'partition_date': self._extract_partition(url)})
 
-    def parse(self, response, partition_date):
+    def parse(self, response):
         """
             Parses the response retrievd from each url. 
-            Fields in ScraperItems: Id, title, description, date, fileLink, partition_date, sourceURL, documentURL, fileType, filePath, fileHash
+            Fields in ScraperItems: Id, title, description, date, partition_date, sourceURL, documentURL, fileType, filePath, fileHash
 
             Args:
             ---------------------
@@ -76,43 +83,38 @@ class WorkplaceRelationSpider(sp.Spider):
             ---------------------
                 None
         """
-        for row in response.css("div.search-result"):
+        # For every item found in the response page
+        # path to items: <div> -> <ul> -> <li class="each-item>
+        # Css can find class directly with no need to move through paths
+        self.helperClass.logAction('info', 'Parse Response', 'parsing responses started, items extraction in progress.')
+        for row in response.css('li.each-item'):
+            # Initialize item
             item = ScraperItem()
-
-            item['Id'] = row.css('.decision-number::text').get()
-            item['title'] = row.css('h3 a::text').get()
-            item['description'] = row.css('.description::text').get()
-            item['date'] = row.css('.decision-date::text').get()
-            item['fileLink'] = urljoin(response.url, row.css('h3 a::attr(href)').get()) 
-            item["partition_date"] = partition_date
-            item["sourceURL"] = response.url
-            documentURL = str(urljoin(response.url, row.css('h3 a::attr(href)').get()))
-            item['documentURL'] = urljoin(response.url, row.css('h3 a::attr(href)').get()) 
-
-            # gto be populated at a latter level
-            item["fileType"] = None
-            item["filePath"] = None
-            item["fileHash"] = None
-
+            # Populate item
+            item['Id'] = row.css('span.refNO::text').get()
+            item['title'] = row.css('h2.title a::text').get()
+            item['description'] = row.css('p.description::text').get()
+            item['date'] = row.css('span.date::text').get()
+            item['partition_date'] = response.meta['partition_date']
+            item['sourceURL'] = response.url
+            documentURL = str(urljoin(response.url, row.css('h2.title a::attr(href)').get()))
+            item['documentURL'] = documentURL
+            item['body'] = self.body.replace(',', '-')
+            
             # Decision step to perform requirements as provided in assesment
             # If pdf, doc, docx then call parse_binary
             if documentURL.endswith(('.pdf', '.doc', '.docx')):
-                yield response.follow(
-                    documentURL,
-                    callback=self.parse_binary,
-                    meta={'item': item}
+                yield response.follow(documentURL,callback=self.parse_binary,meta={'item': item}
                 )
             # else parse_html
             else:
-                yield response.follow(
-                    documentURL,
-                    callback=self.parse_html,
-                    meta={'item': item}
+                yield response.follow(documentURL,callback=self.parse_html,meta={'item': item}
                 )
+        self.helperClass.logAction('info', 'Parse Response', 'Parsing responses finished, items extraction in finalized.')
 
     def _extract_partition(self, url):
         """
-            Extracts the from date from the url.
+            Extracts the 'from' date from the url.
 
             Args:
             ---------------------
@@ -125,9 +127,10 @@ class WorkplaceRelationSpider(sp.Spider):
         """
         parsed = urlparse(url)
         params = parse_qs(parsed.query)
-
+        paritionDate = params['from'][0].replace('/', '-')
+        self.helperClass.logAction('info', 'Parition Date', 'Parition Date Extracted: ' + str(paritionDate))
         # take the "from" date as the partition identifier
-        return params["from"][0].replace("/", "-")
+        return paritionDate
     
     def parse_html(self, response):
         """
@@ -142,15 +145,22 @@ class WorkplaceRelationSpider(sp.Spider):
             ---------------------
                 item: returns the items with additional info provided inside
         """
-        item = response.meta["item"]
-        item["fileType"] = "html"
-        item["rawContent"] = response.text.encode()
+        self.helperClass.logAction('info', 'Parse HTML File', 'HTML File Detected.')
+        item = response.meta['item']
+        item['fileType'] = 'html'
+        item['rawContent'] = response.text.encode()
         yield item
+
+        links = response.css('a::attr(href)').getall()
+
+        for href in links:
+            if href.lower().endswith(('.pdf', '.doc', '.docx')):
+                yield response.follow(href, callback=self.parse_binary, meta={'item': item.copy()})
     
     def parse_binary(self, response):
         """
             This method will help in the decision step of the main parse function in spider class,
-            when file is pdf, doc, or docx, return file type as binary and return rawContent to pass to MinIO upload
+            when file is pdf, doc, or docx, set file type as file extension and return rawContent to pass to MinIO upload
 
             Args:
             ---------------------
@@ -160,7 +170,8 @@ class WorkplaceRelationSpider(sp.Spider):
             ---------------------
                 item: returns the items with additional info provided inside
         """
-        item = response.meta["item"]
-        item["fileType"] = "binary"
-        item["rawContent"] = response.body
+        self.helperClass.logAction('info', 'Parse PDF, Docx, Doc File', 'PDF, Doc, or Docx File Detected.')
+        item = response.meta['item']
+        item['fileType'] = response.url.split('.')[-1].lower()
+        item['rawContent'] = response.body
         yield item    

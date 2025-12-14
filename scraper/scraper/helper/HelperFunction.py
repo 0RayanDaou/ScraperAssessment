@@ -6,7 +6,7 @@ import math
 
 class HelperFunction():
     """
-    This class is used to act as a helper class, that will include functions that help al classes in this assessment.
+    This class is used to act as a helper class, that will include functions that help all classes in this assessment - when applicable.
     It will have the below functions:
     - logAction: Uses the logger class to log actions to log file.
     - constructScrapingList: Takes as input start_date, end_date, query, body, and partition 
@@ -14,8 +14,9 @@ class HelperFunction():
     """
 
     def __init__(self, MDB_connectionString, logFileFullPath, loggerLevel):
-        self.mongoDBConnectionString = MDB_connectionString
+        # Initailize Looger Class
         self.logger = Logger(logFileFullPath, 'DEBUG')
+        # Map strings to Ids that are used in the search URL
         self.bodyMap = {
             "Employment Appeals Tribunal": 2,
             "Equality Tribunal": 1,
@@ -148,7 +149,7 @@ class HelperFunction():
             formattedStartDate = currentStartDate.strftime(date_format)
             formattedEndDate = currentEndDate.strftime(date_format)
             # Construct url
-            url = f'{baseURL}&q=%22{query}%22&from={formattedStartDate}&to={formattedEndDate}&body={bodyIds}'
+            url = f"{baseURL}&q=%22{query}%22&from={formattedStartDate}&to={formattedEndDate}&body={bodyIds}"
             
             self.logAction('info', 'Construct Urls', 'URL ' + str(partitionCount) + ': ' + url)
             
@@ -157,7 +158,7 @@ class HelperFunction():
 
             currentStartDate = currentEndDate + oneDayparition
         
-        self.logAction('info', 'Construct Urls', f'Finished, {len(urls)} Urls will be used for scraping')
+        self.logAction('info', 'Construct Urls', f"Finished, {len(urls)} Urls will be used for scraping")
 
         return urls
         

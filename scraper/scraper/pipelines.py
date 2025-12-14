@@ -1,8 +1,8 @@
 from pymongo import MongoClient
 from datetime import datetime
 import hashlib
-from minio import Minio
-from minio.error import S3Error
+from scraper.helper.minioClient import MinioClient
+import os, io
 
 # Define your item pipelines here
 #
@@ -34,19 +34,20 @@ class ScraperPipeline:
             spider: the spider opened to extract data
         """
 
-        self.mongo_client = MongoClient('mongodb://mongo:27017')
+        # The below was added to allow the dubugging of the scrapy module from the terminal
+        # and at the same time run it from docker. 
+        # The scraper will become enviornment aware
+        mongo_host = os.getenv('MONGO_HOST', 'localhost')
+
+        self.mongo_client = MongoClient(f"mongodb://{mongo_host}:27017")
         # Database name, will be able to create or reuse database
         self.db = self.mongo_client['WorkplaceRelation_metadata']
         # Decision collection in mongo db to store metadata as requested and defined in items.py
         self.collection = self.db['documents_metadata']
         # Initiate MinIO Client
         # access key and secret key defined in the docker-compose.yaml
-        self.minio_client = Minio('minio:9000', access_key='minioadmin', secret_key='minioadmin', secure=False)
+        self.minio_client = MinioClient()
         self.bucket = 'landing'
-
-        # Make sure to create bucket if not exists
-        if not self.minio_client.bucket_exists(self.bucket):
-            self.minio_client.make_bucket(self.bucket)
 
 
     def close_spider(self, spider):
@@ -67,7 +68,7 @@ class ScraperPipeline:
         In this case, the item returned will have its content read, the content hashed, uploaded to MinIO for storage, and then inserted to MongoDB
         with the requested data as per assessment. 
 
-        items keys: Id, title, description, date, fileLink, partition_date, body, sourceURL, documentURL, fileType, filePath, fileHash
+        items keys: Id, title, description, date, partition_date, body, sourceURL, documentURL, fileType, filePath, fileHash
 
         Args:
         ---------------------
@@ -78,14 +79,21 @@ class ScraperPipeline:
             item: the scraped item
         """
         raw_content = item['rawContent']
-        fileHash = hashlib.sha256(raw_content).hexdigest
+        # Generate a SHA-256 cryptographic hash and returns hexadecimal string
+        fileHash = hashlib.sha256(raw_content).hexdigest()
         item['fileHash'] = fileHash
         extension = item['fileType']
-        objectPath = f'{item['partition_date']}/{item['id']}.{extension}'
+        # Object Path directs to the location in MinIO
+        objectPath = f"{item['body']}_{item['partition_date']}/{item['Id']}.{extension}"
+        # upload file to bucket
+        self.minio_client.upload(objectPath=objectPath, raw_content=raw_content)
+        # Construct MinIO filePath
+        item['filePath'] = f"{self.bucket}/{objectPath}"
+        # Remove items not needed to be inserted in MongoDB in the returned items (metadata)
+        item.pop('rawContent', None)
+        item.pop('body', None)
 
-        self.minio_client.put_object(bucket_name=self.bucket, object_name=objectPath, data=raw_content, length=len(raw_content), content_type='application/octet-stream')
-
-        item['filePath'] = f'{self.bucket}/{objectPath}'
-        self.collection.insert_one(dict(item))
+        # Upsert metadata to make sure than when scraping there are no duplicate values in the database
+        self.collection.update_one({'Id': item['Id']}, {'$set': dict(item)}, upsert=True)
 
         return item

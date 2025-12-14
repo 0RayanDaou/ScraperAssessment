@@ -1,5 +1,6 @@
 from minio import Minio
 from io import BytesIO
+import os
 
 class MinioClient:
     """
@@ -10,46 +11,47 @@ class MinioClient:
 
     def __init__(self):
         """
-            Connect to MinIO service running in Docker.
+            Connect to MinIO service running in Docker or locally.
             The below details in connection are the same as the one defined in docker-compose.yaml
-
+            
         """
+        minio_host = os.getenv('MINIO_HOST', 'localhost')
         self.client = Minio(
-            endpoint="minio:9000",
+            endpoint=f"{minio_host}:9000",
             access_key="minioadmin",
             secret_key="minioadmin",
             secure=False
         )
         # Landing is the location of file we create in.
         self.bucket_name = "landing"
-
+    
         # Create bucket if it does not exist
         if not self.client.bucket_exists(self.bucket_name):
             self.client.make_bucket(self.bucket_name)
 
-    def upload(self, content: bytes, filename: str):
+    def upload(self, objectPath, raw_content):
         """
             This method uploads files to minio  
 
         Args:
         ---------------------
-            content: raw file bytes
-            filename: name to store in bucket
+            objectPath: path of the file to be uploaded to bucket
+            raw_content: raw file bytes
 
         Returns:
         ---------------------
-            Path stored in metadata (bucket/key)
+            Path stored in MinIO (bucket/objectPath)
         """
-        
-        data = BytesIO(content)
+        # treansform raw binary content into a file like object 
+        data = BytesIO(raw_content)
 
         self.client.put_object(
             bucket_name=self.bucket_name,
-            object_name=filename,
+            object_name=objectPath,
             data=data,
-            length=len(content),
+            length=len(raw_content),
             content_type="application/octet-stream"
         )
 
         # This is what you store in MongoDB
-        return f"{self.bucket_name}/{filename}"
+        return f"{self.bucket_name}/{objectPath}"
