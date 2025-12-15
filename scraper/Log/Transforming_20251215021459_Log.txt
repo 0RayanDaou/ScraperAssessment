@@ -1,0 +1,884 @@
+2025-12-15 02:14:59,007 | INFO | Log Initiated
+2025-12-15 02:14:59,007 | INFO | Transformation Initiation: Done.
+2025-12-15 02:14:59,019 | INFO | Transformation Run: Starting transformation from 2025-05-06 to 2025-07-30.
+2025-12-15 02:14:59,020 | INFO | Transformation Started: fetching metadata from landing collection.
+2025-12-15 02:14:59,031 | INFO | Metadata Fetched: Number of items fetched: 1083. Beginning transformation process.
+2025-12-15 02:14:59,039 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2528.
+2025-12-15 02:14:59,045 | INFO | File Uploaded to Staging: Uploaded item ID DWT2528 to staging bucket at staging/from_20250506_to_20250730/DWT2528.html.
+2025-12-15 02:14:59,060 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2528 into staging collection.
+2025-12-15 02:14:59,068 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2520 .
+2025-12-15 02:14:59,072 | INFO | File Uploaded to Staging: Uploaded item ID PWD2520  to staging bucket at staging/from_20250506_to_20250730/PWD2520 .html.
+2025-12-15 02:14:59,073 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2520  into staging collection.
+2025-12-15 02:14:59,081 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2517 .
+2025-12-15 02:14:59,087 | INFO | File Uploaded to Staging: Uploaded item ID UDD2517  to staging bucket at staging/from_20250506_to_20250730/UDD2517 .html.
+2025-12-15 02:14:59,088 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2517  into staging collection.
+2025-12-15 02:14:59,096 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23152.
+2025-12-15 02:14:59,102 | INFO | File Uploaded to Staging: Uploaded item ID LCR23152 to staging bucket at staging/from_20250506_to_20250730/LCR23152.html.
+2025-12-15 02:14:59,104 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23152 into staging collection.
+2025-12-15 02:14:59,110 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23158.
+2025-12-15 02:14:59,114 | INFO | File Uploaded to Staging: Uploaded item ID LCR23158 to staging bucket at staging/from_20250506_to_20250730/LCR23158.html.
+2025-12-15 02:14:59,115 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23158 into staging collection.
+2025-12-15 02:14:59,123 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2516.
+2025-12-15 02:14:59,129 | INFO | File Uploaded to Staging: Uploaded item ID UDD2516 to staging bucket at staging/from_20250506_to_20250730/UDD2516.html.
+2025-12-15 02:14:59,131 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2516 into staging collection.
+2025-12-15 02:14:59,138 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049978.
+2025-12-15 02:14:59,144 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049978 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049978.html.
+2025-12-15 02:14:59,145 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049978 into staging collection.
+2025-12-15 02:14:59,152 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049457.
+2025-12-15 02:14:59,157 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049457 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049457.html.
+2025-12-15 02:14:59,159 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049457 into staging collection.
+2025-12-15 02:14:59,168 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054056.
+2025-12-15 02:14:59,173 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054056 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054056.html.
+2025-12-15 02:14:59,175 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054056 into staging collection.
+2025-12-15 02:14:59,184 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00047073.
+2025-12-15 02:14:59,189 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00047073 to staging bucket at staging/from_20250506_to_20250730/ADJ-00047073.html.
+2025-12-15 02:14:59,191 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00047073 into staging collection.
+2025-12-15 02:14:59,202 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050981.
+2025-12-15 02:14:59,208 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050981 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050981.html.
+2025-12-15 02:14:59,209 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050981 into staging collection.
+2025-12-15 02:14:59,215 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23154.
+2025-12-15 02:14:59,219 | INFO | File Uploaded to Staging: Uploaded item ID LCR23154 to staging bucket at staging/from_20250506_to_20250730/LCR23154.html.
+2025-12-15 02:14:59,221 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23154 into staging collection.
+2025-12-15 02:14:59,228 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23156.
+2025-12-15 02:14:59,234 | INFO | File Uploaded to Staging: Uploaded item ID LCR23156 to staging bucket at staging/from_20250506_to_20250730/LCR23156.html.
+2025-12-15 02:14:59,235 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23156 into staging collection.
+2025-12-15 02:14:59,242 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23155.
+2025-12-15 02:14:59,247 | INFO | File Uploaded to Staging: Uploaded item ID LCR23155 to staging bucket at staging/from_20250506_to_20250730/LCR23155.html.
+2025-12-15 02:14:59,249 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23155 into staging collection.
+2025-12-15 02:14:59,255 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23157.
+2025-12-15 02:14:59,262 | INFO | File Uploaded to Staging: Uploaded item ID LCR23157 to staging bucket at staging/from_20250506_to_20250730/LCR23157.html.
+2025-12-15 02:14:59,263 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23157 into staging collection.
+2025-12-15 02:14:59,277 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054525.
+2025-12-15 02:14:59,283 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054525 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054525.html.
+2025-12-15 02:14:59,287 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054525 into staging collection.
+2025-12-15 02:14:59,298 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051434.
+2025-12-15 02:14:59,304 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051434 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051434.html.
+2025-12-15 02:14:59,306 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051434 into staging collection.
+2025-12-15 02:14:59,314 | INFO | HTML Transformation: Applied HTML cleaning for item ID  ADJ-00054398.
+2025-12-15 02:14:59,319 | INFO | File Uploaded to Staging: Uploaded item ID  ADJ-00054398 to staging bucket at staging/from_20250506_to_20250730/ ADJ-00054398.html.
+2025-12-15 02:14:59,320 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID  ADJ-00054398 into staging collection.
+2025-12-15 02:14:59,328 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00057098.
+2025-12-15 02:14:59,337 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00057098 to staging bucket at staging/from_20250506_to_20250730/ADJ-00057098.html.
+2025-12-15 02:14:59,339 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00057098 into staging collection.
+2025-12-15 02:14:59,349 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00037923.
+2025-12-15 02:14:59,356 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00037923 to staging bucket at staging/from_20250506_to_20250730/ADJ-00037923.html.
+2025-12-15 02:14:59,358 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00037923 into staging collection.
+2025-12-15 02:14:59,367 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00037922.
+2025-12-15 02:14:59,375 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00037922 to staging bucket at staging/from_20250506_to_20250730/ADJ-00037922.html.
+2025-12-15 02:14:59,377 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00037922 into staging collection.
+2025-12-15 02:14:59,389 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051525.
+2025-12-15 02:14:59,396 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051525 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051525.html.
+2025-12-15 02:14:59,397 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051525 into staging collection.
+2025-12-15 02:14:59,404 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056558.
+2025-12-15 02:14:59,409 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056558 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056558.html.
+2025-12-15 02:14:59,410 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056558 into staging collection.
+2025-12-15 02:14:59,417 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051191.
+2025-12-15 02:14:59,421 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051191 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051191.html.
+2025-12-15 02:14:59,423 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051191 into staging collection.
+2025-12-15 02:14:59,432 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054909.
+2025-12-15 02:14:59,437 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054909 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054909.html.
+2025-12-15 02:14:59,438 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054909 into staging collection.
+2025-12-15 02:14:59,444 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00001938.
+2025-12-15 02:14:59,447 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00001938 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00001938.html.
+2025-12-15 02:14:59,448 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00001938 into staging collection.
+2025-12-15 02:14:59,454 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00002799.
+2025-12-15 02:14:59,458 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00002799 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00002799.html.
+2025-12-15 02:14:59,459 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00002799 into staging collection.
+2025-12-15 02:14:59,465 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050419.
+2025-12-15 02:14:59,470 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050419 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050419.html.
+2025-12-15 02:14:59,472 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050419 into staging collection.
+2025-12-15 02:14:59,509 | INFO | HTML Transformation: Applied HTML cleaning for item ID RPD2510 .
+2025-12-15 02:14:59,516 | INFO | File Uploaded to Staging: Uploaded item ID RPD2510  to staging bucket at staging/from_20250506_to_20250730/RPD2510 .html.
+2025-12-15 02:14:59,519 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID RPD2510  into staging collection.
+2025-12-15 02:14:59,529 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003073.
+2025-12-15 02:14:59,536 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003073 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003073.html.
+2025-12-15 02:14:59,538 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003073 into staging collection.
+2025-12-15 02:14:59,556 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049895.
+2025-12-15 02:14:59,563 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049895 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049895.html.
+2025-12-15 02:14:59,564 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049895 into staging collection.
+2025-12-15 02:14:59,572 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050866.
+2025-12-15 02:14:59,578 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050866 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050866.html.
+2025-12-15 02:14:59,579 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050866 into staging collection.
+2025-12-15 02:14:59,587 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00026226.
+2025-12-15 02:14:59,592 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00026226 to staging bucket at staging/from_20250506_to_20250730/ADJ-00026226.html.
+2025-12-15 02:14:59,593 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00026226 into staging collection.
+2025-12-15 02:14:59,609 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049097.
+2025-12-15 02:14:59,617 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049097 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049097.html.
+2025-12-15 02:14:59,618 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049097 into staging collection.
+2025-12-15 02:14:59,626 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056428.
+2025-12-15 02:14:59,631 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056428 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056428.html.
+2025-12-15 02:14:59,632 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056428 into staging collection.
+2025-12-15 02:14:59,638 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23137.
+2025-12-15 02:14:59,644 | INFO | File Uploaded to Staging: Uploaded item ID LCR23137 to staging bucket at staging/from_20250506_to_20250730/LCR23137.html.
+2025-12-15 02:14:59,645 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23137 into staging collection.
+2025-12-15 02:14:59,651 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23136.
+2025-12-15 02:14:59,655 | INFO | File Uploaded to Staging: Uploaded item ID LCR23136 to staging bucket at staging/from_20250506_to_20250730/LCR23136.html.
+2025-12-15 02:14:59,656 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23136 into staging collection.
+2025-12-15 02:14:59,663 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051082.
+2025-12-15 02:14:59,668 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051082 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051082.html.
+2025-12-15 02:14:59,669 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051082 into staging collection.
+2025-12-15 02:14:59,677 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051954.
+2025-12-15 02:14:59,683 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051954 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051954.html.
+2025-12-15 02:14:59,685 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051954 into staging collection.
+2025-12-15 02:14:59,694 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049928.
+2025-12-15 02:14:59,702 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049928 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049928.html.
+2025-12-15 02:14:59,717 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049928 into staging collection.
+2025-12-15 02:14:59,726 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23133.
+2025-12-15 02:14:59,731 | INFO | File Uploaded to Staging: Uploaded item ID LCR23133 to staging bucket at staging/from_20250506_to_20250730/LCR23133.html.
+2025-12-15 02:14:59,732 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23133 into staging collection.
+2025-12-15 02:14:59,738 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23132.
+2025-12-15 02:14:59,742 | INFO | File Uploaded to Staging: Uploaded item ID LCR23132 to staging bucket at staging/from_20250506_to_20250730/LCR23132.html.
+2025-12-15 02:14:59,743 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23132 into staging collection.
+2025-12-15 02:14:59,751 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2549.
+2025-12-15 02:14:59,755 | INFO | File Uploaded to Staging: Uploaded item ID EDA2549 to staging bucket at staging/from_20250506_to_20250730/EDA2549.html.
+2025-12-15 02:14:59,757 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2549 into staging collection.
+2025-12-15 02:14:59,763 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052501.
+2025-12-15 02:14:59,768 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052501 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052501.html.
+2025-12-15 02:14:59,769 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052501 into staging collection.
+2025-12-15 02:14:59,774 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054251.
+2025-12-15 02:14:59,778 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054251 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054251.html.
+2025-12-15 02:14:59,779 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054251 into staging collection.
+2025-12-15 02:14:59,785 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053414.
+2025-12-15 02:14:59,788 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053414 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053414.html.
+2025-12-15 02:14:59,789 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053414 into staging collection.
+2025-12-15 02:14:59,797 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046620.
+2025-12-15 02:14:59,802 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046620 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046620.html.
+2025-12-15 02:14:59,804 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046620 into staging collection.
+2025-12-15 02:14:59,810 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00002163.
+2025-12-15 02:14:59,813 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00002163 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00002163.html.
+2025-12-15 02:14:59,814 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00002163 into staging collection.
+2025-12-15 02:14:59,820 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2522.
+2025-12-15 02:14:59,824 | INFO | File Uploaded to Staging: Uploaded item ID PWD2522 to staging bucket at staging/from_20250506_to_20250730/PWD2522.html.
+2025-12-15 02:14:59,825 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2522 into staging collection.
+2025-12-15 02:14:59,831 | INFO | HTML Transformation: Applied HTML cleaning for item ID TED2513.
+2025-12-15 02:14:59,835 | INFO | File Uploaded to Staging: Uploaded item ID TED2513 to staging bucket at staging/from_20250506_to_20250730/TED2513.html.
+2025-12-15 02:14:59,836 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID TED2513 into staging collection.
+2025-12-15 02:14:59,842 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2552.
+2025-12-15 02:14:59,846 | INFO | File Uploaded to Staging: Uploaded item ID EDA2552 to staging bucket at staging/from_20250506_to_20250730/EDA2552.html.
+2025-12-15 02:14:59,847 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2552 into staging collection.
+2025-12-15 02:14:59,854 | INFO | HTML Transformation: Applied HTML cleaning for item ID PDD255.
+2025-12-15 02:14:59,860 | INFO | File Uploaded to Staging: Uploaded item ID PDD255 to staging bucket at staging/from_20250506_to_20250730/PDD255.html.
+2025-12-15 02:14:59,861 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PDD255 into staging collection.
+2025-12-15 02:14:59,867 | INFO | HTML Transformation: Applied HTML cleaning for item ID HSD257.
+2025-12-15 02:14:59,872 | INFO | File Uploaded to Staging: Uploaded item ID HSD257 to staging bucket at staging/from_20250506_to_20250730/HSD257.html.
+2025-12-15 02:14:59,873 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID HSD257 into staging collection.
+2025-12-15 02:14:59,879 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23128.
+2025-12-15 02:14:59,882 | INFO | File Uploaded to Staging: Uploaded item ID LCR23128 to staging bucket at staging/from_20250506_to_20250730/LCR23128.html.
+2025-12-15 02:14:59,883 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23128 into staging collection.
+2025-12-15 02:14:59,890 | INFO | HTML Transformation: Applied HTML cleaning for item ID PDD256.
+2025-12-15 02:14:59,895 | INFO | File Uploaded to Staging: Uploaded item ID PDD256 to staging bucket at staging/from_20250506_to_20250730/PDD256.html.
+2025-12-15 02:14:59,896 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PDD256 into staging collection.
+2025-12-15 02:14:59,903 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003124.
+2025-12-15 02:14:59,908 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003124 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003124.html.
+2025-12-15 02:14:59,910 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003124 into staging collection.
+2025-12-15 02:14:59,915 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR-SC-00003388.
+2025-12-15 02:14:59,918 | INFO | File Uploaded to Staging: Uploaded item ID IR-SC-00003388 to staging bucket at staging/from_20250506_to_20250730/IR-SC-00003388.html.
+2025-12-15 02:14:59,920 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR-SC-00003388 into staging collection.
+2025-12-15 02:14:59,926 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054428.
+2025-12-15 02:14:59,930 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054428 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054428.html.
+2025-12-15 02:14:59,931 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054428 into staging collection.
+2025-12-15 02:14:59,938 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053903.
+2025-12-15 02:14:59,944 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053903 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053903.html.
+2025-12-15 02:14:59,945 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053903 into staging collection.
+2025-12-15 02:14:59,953 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054029.
+2025-12-15 02:14:59,957 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054029 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054029.html.
+2025-12-15 02:14:59,958 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054029 into staging collection.
+2025-12-15 02:14:59,967 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056290.
+2025-12-15 02:14:59,973 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056290 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056290.html.
+2025-12-15 02:14:59,974 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056290 into staging collection.
+2025-12-15 02:14:59,980 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055353.
+2025-12-15 02:14:59,984 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055353 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055353.html.
+2025-12-15 02:14:59,985 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055353 into staging collection.
+2025-12-15 02:14:59,995 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00042654.
+2025-12-15 02:15:00,002 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00042654 to staging bucket at staging/from_20250506_to_20250730/ADJ-00042654.html.
+2025-12-15 02:15:00,005 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00042654 into staging collection.
+2025-12-15 02:15:00,013 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052943.
+2025-12-15 02:15:00,018 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052943 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052943.html.
+2025-12-15 02:15:00,019 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052943 into staging collection.
+2025-12-15 02:15:00,031 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053929.
+2025-12-15 02:15:00,037 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053929 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053929.html.
+2025-12-15 02:15:00,038 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053929 into staging collection.
+2025-12-15 02:15:00,044 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003130.
+2025-12-15 02:15:00,050 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003130 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003130.html.
+2025-12-15 02:15:00,051 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003130 into staging collection.
+2025-12-15 02:15:00,059 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003207.
+2025-12-15 02:15:00,064 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003207 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003207.html.
+2025-12-15 02:15:00,066 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003207 into staging collection.
+2025-12-15 02:15:00,072 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2550.
+2025-12-15 02:15:00,077 | INFO | File Uploaded to Staging: Uploaded item ID EDA2550 to staging bucket at staging/from_20250506_to_20250730/EDA2550.html.
+2025-12-15 02:15:00,078 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2550 into staging collection.
+2025-12-15 02:15:00,093 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00045566.
+2025-12-15 02:15:00,100 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00045566 to staging bucket at staging/from_20250506_to_20250730/ADJ-00045566.html.
+2025-12-15 02:15:00,101 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00045566 into staging collection.
+2025-12-15 02:15:00,124 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050986.
+2025-12-15 02:15:00,127 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050986 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050986.html.
+2025-12-15 02:15:00,128 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050986 into staging collection.
+2025-12-15 02:15:00,136 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055484.
+2025-12-15 02:15:00,141 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055484 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055484.html.
+2025-12-15 02:15:00,142 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055484 into staging collection.
+2025-12-15 02:15:00,156 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051379.
+2025-12-15 02:15:00,162 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051379 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051379.html.
+2025-12-15 02:15:00,163 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051379 into staging collection.
+2025-12-15 02:15:00,170 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046528.
+2025-12-15 02:15:00,176 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046528 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046528.html.
+2025-12-15 02:15:00,177 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046528 into staging collection.
+2025-12-15 02:15:00,183 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00042895.
+2025-12-15 02:15:00,188 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00042895 to staging bucket at staging/from_20250506_to_20250730/ADJ-00042895.html.
+2025-12-15 02:15:00,189 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00042895 into staging collection.
+2025-12-15 02:15:00,197 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00048437.
+2025-12-15 02:15:00,202 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00048437 to staging bucket at staging/from_20250506_to_20250730/ADJ-00048437.html.
+2025-12-15 02:15:00,203 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00048437 into staging collection.
+2025-12-15 02:15:00,211 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053820.
+2025-12-15 02:15:00,216 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053820 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053820.html.
+2025-12-15 02:15:00,217 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053820 into staging collection.
+2025-12-15 02:15:00,223 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2520.
+2025-12-15 02:15:00,227 | INFO | File Uploaded to Staging: Uploaded item ID UDD2520 to staging bucket at staging/from_20250506_to_20250730/UDD2520.html.
+2025-12-15 02:15:00,228 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2520 into staging collection.
+2025-12-15 02:15:00,233 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00004368.
+2025-12-15 02:15:00,237 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00004368 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00004368.html.
+2025-12-15 02:15:00,238 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00004368 into staging collection.
+2025-12-15 02:15:00,246 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053800.
+2025-12-15 02:15:00,251 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053800 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053800.html.
+2025-12-15 02:15:00,252 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053800 into staging collection.
+2025-12-15 02:15:00,258 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046657.
+2025-12-15 02:15:00,263 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046657 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046657.html.
+2025-12-15 02:15:00,264 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046657 into staging collection.
+2025-12-15 02:15:00,269 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00001527.
+2025-12-15 02:15:00,273 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00001527 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00001527.html.
+2025-12-15 02:15:00,274 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00001527 into staging collection.
+2025-12-15 02:15:00,280 | INFO | HTML Transformation: Applied HTML cleaning for item ID TED2510.
+2025-12-15 02:15:00,283 | INFO | File Uploaded to Staging: Uploaded item ID TED2510 to staging bucket at staging/from_20250506_to_20250730/TED2510.html.
+2025-12-15 02:15:00,284 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID TED2510 into staging collection.
+2025-12-15 02:15:00,290 | INFO | HTML Transformation: Applied HTML cleaning for item ID RPD258.
+2025-12-15 02:15:00,294 | INFO | File Uploaded to Staging: Uploaded item ID RPD258 to staging bucket at staging/from_20250506_to_20250730/RPD258.html.
+2025-12-15 02:15:00,295 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID RPD258 into staging collection.
+2025-12-15 02:15:00,302 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2522.
+2025-12-15 02:15:00,307 | INFO | File Uploaded to Staging: Uploaded item ID DWT2522 to staging bucket at staging/from_20250506_to_20250730/DWT2522.html.
+2025-12-15 02:15:00,308 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2522 into staging collection.
+2025-12-15 02:15:00,314 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2518.
+2025-12-15 02:15:00,320 | INFO | File Uploaded to Staging: Uploaded item ID DWT2518 to staging bucket at staging/from_20250506_to_20250730/DWT2518.html.
+2025-12-15 02:15:00,321 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2518 into staging collection.
+2025-12-15 02:15:00,326 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2519.
+2025-12-15 02:15:00,331 | INFO | File Uploaded to Staging: Uploaded item ID DWT2519 to staging bucket at staging/from_20250506_to_20250730/DWT2519.html.
+2025-12-15 02:15:00,332 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2519 into staging collection.
+2025-12-15 02:15:00,338 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2520.
+2025-12-15 02:15:00,342 | INFO | File Uploaded to Staging: Uploaded item ID DWT2520 to staging bucket at staging/from_20250506_to_20250730/DWT2520.html.
+2025-12-15 02:15:00,346 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2520 into staging collection.
+2025-12-15 02:15:00,360 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051980.
+2025-12-15 02:15:00,373 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051980 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051980.html.
+2025-12-15 02:15:00,376 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051980 into staging collection.
+2025-12-15 02:15:00,390 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053640.
+2025-12-15 02:15:00,398 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053640 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053640.html.
+2025-12-15 02:15:00,402 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053640 into staging collection.
+2025-12-15 02:15:00,410 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00002391.
+2025-12-15 02:15:00,416 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00002391 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00002391.html.
+2025-12-15 02:15:00,418 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00002391 into staging collection.
+2025-12-15 02:15:00,425 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00044752.
+2025-12-15 02:15:00,430 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00044752 to staging bucket at staging/from_20250506_to_20250730/ADJ-00044752.html.
+2025-12-15 02:15:00,431 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00044752 into staging collection.
+2025-12-15 02:15:00,437 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051775.
+2025-12-15 02:15:00,442 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051775 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051775.html.
+2025-12-15 02:15:00,444 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051775 into staging collection.
+2025-12-15 02:15:00,451 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050656.
+2025-12-15 02:15:00,456 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050656 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050656.html.
+2025-12-15 02:15:00,459 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050656 into staging collection.
+2025-12-15 02:15:00,467 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054165.
+2025-12-15 02:15:00,473 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054165 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054165.html.
+2025-12-15 02:15:00,474 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054165 into staging collection.
+2025-12-15 02:15:00,480 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053965.
+2025-12-15 02:15:00,486 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053965 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053965.html.
+2025-12-15 02:15:00,487 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053965 into staging collection.
+2025-12-15 02:15:00,493 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00047490.
+2025-12-15 02:15:00,498 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00047490 to staging bucket at staging/from_20250506_to_20250730/ADJ-00047490.html.
+2025-12-15 02:15:00,500 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00047490 into staging collection.
+2025-12-15 02:15:00,508 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053151.
+2025-12-15 02:15:00,513 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053151 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053151.html.
+2025-12-15 02:15:00,514 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053151 into staging collection.
+2025-12-15 02:15:00,519 | INFO | HTML Transformation: Applied HTML cleaning for item ID HSD2512.
+2025-12-15 02:15:00,523 | INFO | File Uploaded to Staging: Uploaded item ID HSD2512 to staging bucket at staging/from_20250506_to_20250730/HSD2512.html.
+2025-12-15 02:15:00,524 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID HSD2512 into staging collection.
+2025-12-15 02:15:00,530 | INFO | HTML Transformation: Applied HTML cleaning for item ID HSD2511.
+2025-12-15 02:15:00,534 | INFO | File Uploaded to Staging: Uploaded item ID HSD2511 to staging bucket at staging/from_20250506_to_20250730/HSD2511.html.
+2025-12-15 02:15:00,535 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID HSD2511 into staging collection.
+2025-12-15 02:15:00,541 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2548.
+2025-12-15 02:15:00,545 | INFO | File Uploaded to Staging: Uploaded item ID EDA2548 to staging bucket at staging/from_20250506_to_20250730/EDA2548.html.
+2025-12-15 02:15:00,547 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2548 into staging collection.
+2025-12-15 02:15:00,554 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2547.
+2025-12-15 02:15:00,559 | INFO | File Uploaded to Staging: Uploaded item ID EDA2547 to staging bucket at staging/from_20250506_to_20250730/EDA2547.html.
+2025-12-15 02:15:00,560 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2547 into staging collection.
+2025-12-15 02:15:00,566 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2546.
+2025-12-15 02:15:00,569 | INFO | File Uploaded to Staging: Uploaded item ID EDA2546 to staging bucket at staging/from_20250506_to_20250730/EDA2546.html.
+2025-12-15 02:15:00,570 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2546 into staging collection.
+2025-12-15 02:15:00,577 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00044529.
+2025-12-15 02:15:00,582 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00044529 to staging bucket at staging/from_20250506_to_20250730/ADJ-00044529.html.
+2025-12-15 02:15:00,583 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00044529 into staging collection.
+2025-12-15 02:15:00,591 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00048305.
+2025-12-15 02:15:00,597 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00048305 to staging bucket at staging/from_20250506_to_20250730/ADJ-00048305.html.
+2025-12-15 02:15:00,598 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00048305 into staging collection.
+2025-12-15 02:15:00,605 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056221.
+2025-12-15 02:15:00,610 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056221 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056221.html.
+2025-12-15 02:15:00,611 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056221 into staging collection.
+2025-12-15 02:15:00,618 | INFO | HTML Transformation: Applied HTML cleaning for item ID  ADJ-00053384.
+2025-12-15 02:15:00,623 | INFO | File Uploaded to Staging: Uploaded item ID  ADJ-00053384 to staging bucket at staging/from_20250506_to_20250730/ ADJ-00053384.html.
+2025-12-15 02:15:00,623 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID  ADJ-00053384 into staging collection.
+2025-12-15 02:15:00,632 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2523.
+2025-12-15 02:15:00,635 | INFO | File Uploaded to Staging: Uploaded item ID UDD2523 to staging bucket at staging/from_20250506_to_20250730/UDD2523.html.
+2025-12-15 02:15:00,636 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2523 into staging collection.
+2025-12-15 02:15:00,642 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056820.
+2025-12-15 02:15:00,646 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056820 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056820.html.
+2025-12-15 02:15:00,647 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056820 into staging collection.
+2025-12-15 02:15:00,655 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055483.
+2025-12-15 02:15:00,666 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055483 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055483.html.
+2025-12-15 02:15:00,667 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055483 into staging collection.
+2025-12-15 02:15:00,676 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053118.
+2025-12-15 02:15:00,681 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053118 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053118.html.
+2025-12-15 02:15:00,682 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053118 into staging collection.
+2025-12-15 02:15:00,689 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053845.
+2025-12-15 02:15:00,694 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053845 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053845.html.
+2025-12-15 02:15:00,696 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053845 into staging collection.
+2025-12-15 02:15:00,702 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003791.
+2025-12-15 02:15:00,708 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003791 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003791.html.
+2025-12-15 02:15:00,722 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003791 into staging collection.
+2025-12-15 02:15:00,756 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00048967.
+2025-12-15 02:15:00,762 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00048967 to staging bucket at staging/from_20250506_to_20250730/ADJ-00048967.html.
+2025-12-15 02:15:00,764 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00048967 into staging collection.
+2025-12-15 02:15:00,770 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR-SC-00004100.
+2025-12-15 02:15:00,777 | INFO | File Uploaded to Staging: Uploaded item ID IR-SC-00004100 to staging bucket at staging/from_20250506_to_20250730/IR-SC-00004100.html.
+2025-12-15 02:15:00,780 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR-SC-00004100 into staging collection.
+2025-12-15 02:15:00,789 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049691.
+2025-12-15 02:15:00,796 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049691 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049691.html.
+2025-12-15 02:15:00,797 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049691 into staging collection.
+2025-12-15 02:15:00,806 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049570.
+2025-12-15 02:15:00,812 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049570 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049570.html.
+2025-12-15 02:15:00,813 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049570 into staging collection.
+2025-12-15 02:15:00,821 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055803.
+2025-12-15 02:15:00,827 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055803 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055803.html.
+2025-12-15 02:15:00,828 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055803 into staging collection.
+2025-12-15 02:15:00,835 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046946.
+2025-12-15 02:15:00,839 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046946 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046946.html.
+2025-12-15 02:15:00,841 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046946 into staging collection.
+2025-12-15 02:15:00,847 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2521.
+2025-12-15 02:15:00,853 | INFO | File Uploaded to Staging: Uploaded item ID UDD2521 to staging bucket at staging/from_20250506_to_20250730/UDD2521.html.
+2025-12-15 02:15:00,854 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2521 into staging collection.
+2025-12-15 02:15:00,861 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2524.
+2025-12-15 02:15:00,866 | INFO | File Uploaded to Staging: Uploaded item ID PWD2524 to staging bucket at staging/from_20250506_to_20250730/PWD2524.html.
+2025-12-15 02:15:00,867 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2524 into staging collection.
+2025-12-15 02:15:00,874 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055087.
+2025-12-15 02:15:00,879 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055087 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055087.html.
+2025-12-15 02:15:00,881 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055087 into staging collection.
+2025-12-15 02:15:00,887 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2553.
+2025-12-15 02:15:00,891 | INFO | File Uploaded to Staging: Uploaded item ID EDA2553 to staging bucket at staging/from_20250506_to_20250730/EDA2553.html.
+2025-12-15 02:15:00,893 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2553 into staging collection.
+2025-12-15 02:15:00,898 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23145.
+2025-12-15 02:15:00,902 | INFO | File Uploaded to Staging: Uploaded item ID LCR23145 to staging bucket at staging/from_20250506_to_20250730/LCR23145.html.
+2025-12-15 02:15:00,903 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23145 into staging collection.
+2025-12-15 02:15:00,909 | INFO | HTML Transformation: Applied HTML cleaning for item ID  IR - SC - 00003504.
+2025-12-15 02:15:00,913 | INFO | File Uploaded to Staging: Uploaded item ID  IR - SC - 00003504 to staging bucket at staging/from_20250506_to_20250730/ IR - SC - 00003504.html.
+2025-12-15 02:15:00,914 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID  IR - SC - 00003504 into staging collection.
+2025-12-15 02:15:00,920 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050585.
+2025-12-15 02:15:00,924 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050585 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050585.html.
+2025-12-15 02:15:00,925 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050585 into staging collection.
+2025-12-15 02:15:00,934 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049349.
+2025-12-15 02:15:00,938 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049349 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049349.html.
+2025-12-15 02:15:00,939 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049349 into staging collection.
+2025-12-15 02:15:00,945 | INFO | HTML Transformation: Applied HTML cleaning for item ID  ADJ-00048061.
+2025-12-15 02:15:00,949 | INFO | File Uploaded to Staging: Uploaded item ID  ADJ-00048061 to staging bucket at staging/from_20250506_to_20250730/ ADJ-00048061.html.
+2025-12-15 02:15:00,950 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID  ADJ-00048061 into staging collection.
+2025-12-15 02:15:00,958 | INFO | HTML Transformation: Applied HTML cleaning for item ID PDD259.
+2025-12-15 02:15:00,962 | INFO | File Uploaded to Staging: Uploaded item ID PDD259 to staging bucket at staging/from_20250506_to_20250730/PDD259.html.
+2025-12-15 02:15:00,963 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PDD259 into staging collection.
+2025-12-15 02:15:00,969 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2519.
+2025-12-15 02:15:00,972 | INFO | File Uploaded to Staging: Uploaded item ID UDD2519 to staging bucket at staging/from_20250506_to_20250730/UDD2519.html.
+2025-12-15 02:15:00,973 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2519 into staging collection.
+2025-12-15 02:15:00,979 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2518.
+2025-12-15 02:15:00,985 | INFO | File Uploaded to Staging: Uploaded item ID UDD2518 to staging bucket at staging/from_20250506_to_20250730/UDD2518.html.
+2025-12-15 02:15:00,986 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2518 into staging collection.
+2025-12-15 02:15:00,993 | INFO | HTML Transformation: Applied HTML cleaning for item ID RPD2511.
+2025-12-15 02:15:00,998 | INFO | File Uploaded to Staging: Uploaded item ID RPD2511 to staging bucket at staging/from_20250506_to_20250730/RPD2511.html.
+2025-12-15 02:15:00,999 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID RPD2511 into staging collection.
+2025-12-15 02:15:01,006 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053428.
+2025-12-15 02:15:01,011 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053428 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053428.html.
+2025-12-15 02:15:01,012 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053428 into staging collection.
+2025-12-15 02:15:01,018 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2521.
+2025-12-15 02:15:01,022 | INFO | File Uploaded to Staging: Uploaded item ID DWT2521 to staging bucket at staging/from_20250506_to_20250730/DWT2521.html.
+2025-12-15 02:15:01,023 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2521 into staging collection.
+2025-12-15 02:15:01,028 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23134.
+2025-12-15 02:15:01,032 | INFO | File Uploaded to Staging: Uploaded item ID LCR23134 to staging bucket at staging/from_20250506_to_20250730/LCR23134.html.
+2025-12-15 02:15:01,033 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23134 into staging collection.
+2025-12-15 02:15:01,040 | INFO | HTML Transformation: Applied HTML cleaning for item ID PDD257.
+2025-12-15 02:15:01,045 | INFO | File Uploaded to Staging: Uploaded item ID PDD257 to staging bucket at staging/from_20250506_to_20250730/PDD257.html.
+2025-12-15 02:15:01,046 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PDD257 into staging collection.
+2025-12-15 02:15:01,051 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2521.
+2025-12-15 02:15:01,055 | INFO | File Uploaded to Staging: Uploaded item ID PWD2521 to staging bucket at staging/from_20250506_to_20250730/PWD2521.html.
+2025-12-15 02:15:01,056 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2521 into staging collection.
+2025-12-15 02:15:01,063 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23140.
+2025-12-15 02:15:01,068 | INFO | File Uploaded to Staging: Uploaded item ID LCR23140 to staging bucket at staging/from_20250506_to_20250730/LCR23140.html.
+2025-12-15 02:15:01,069 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23140 into staging collection.
+2025-12-15 02:15:01,076 | INFO | HTML Transformation: Applied HTML cleaning for item ID TED2512.
+2025-12-15 02:15:01,081 | INFO | File Uploaded to Staging: Uploaded item ID TED2512 to staging bucket at staging/from_20250506_to_20250730/TED2512.html.
+2025-12-15 02:15:01,082 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID TED2512 into staging collection.
+2025-12-15 02:15:01,090 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00047023.
+2025-12-15 02:15:01,097 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00047023 to staging bucket at staging/from_20250506_to_20250730/ADJ-00047023.html.
+2025-12-15 02:15:01,101 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00047023 into staging collection.
+2025-12-15 02:15:01,110 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00047002.
+2025-12-15 02:15:01,120 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00047002 to staging bucket at staging/from_20250506_to_20250730/ADJ-00047002.html.
+2025-12-15 02:15:01,123 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00047002 into staging collection.
+2025-12-15 02:15:01,133 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053387.
+2025-12-15 02:15:01,139 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053387 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053387.html.
+2025-12-15 02:15:01,140 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053387 into staging collection.
+2025-12-15 02:15:01,148 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049039.
+2025-12-15 02:15:01,153 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049039 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049039.html.
+2025-12-15 02:15:01,154 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049039 into staging collection.
+2025-12-15 02:15:01,159 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00002845.
+2025-12-15 02:15:01,165 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00002845 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00002845.html.
+2025-12-15 02:15:01,166 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00002845 into staging collection.
+2025-12-15 02:15:01,173 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046659.
+2025-12-15 02:15:01,178 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046659 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046659.html.
+2025-12-15 02:15:01,179 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046659 into staging collection.
+2025-12-15 02:15:01,185 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046711.
+2025-12-15 02:15:01,189 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046711 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046711.html.
+2025-12-15 02:15:01,190 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046711 into staging collection.
+2025-12-15 02:15:01,197 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051920.
+2025-12-15 02:15:01,202 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051920 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051920.html.
+2025-12-15 02:15:01,203 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051920 into staging collection.
+2025-12-15 02:15:01,209 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003028.
+2025-12-15 02:15:01,214 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003028 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003028.html.
+2025-12-15 02:15:01,215 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003028 into staging collection.
+2025-12-15 02:15:01,224 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053699.
+2025-12-15 02:15:01,229 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053699 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053699.html.
+2025-12-15 02:15:01,230 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053699 into staging collection.
+2025-12-15 02:15:01,237 | INFO | HTML Transformation: Applied HTML cleaning for item ID  TED259.
+2025-12-15 02:15:01,241 | INFO | File Uploaded to Staging: Uploaded item ID  TED259 to staging bucket at staging/from_20250506_to_20250730/ TED259.html.
+2025-12-15 02:15:01,243 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID  TED259 into staging collection.
+2025-12-15 02:15:01,248 | INFO | HTML Transformation: Applied HTML cleaning for item ID TED258 .
+2025-12-15 02:15:01,252 | INFO | File Uploaded to Staging: Uploaded item ID TED258  to staging bucket at staging/from_20250506_to_20250730/TED258 .html.
+2025-12-15 02:15:01,254 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID TED258  into staging collection.
+2025-12-15 02:15:01,260 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056394.
+2025-12-15 02:15:01,263 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056394 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056394.html.
+2025-12-15 02:15:01,264 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056394 into staging collection.
+2025-12-15 02:15:01,272 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00047641.
+2025-12-15 02:15:01,277 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00047641 to staging bucket at staging/from_20250506_to_20250730/ADJ-00047641.html.
+2025-12-15 02:15:01,278 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00047641 into staging collection.
+2025-12-15 02:15:01,284 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23130.
+2025-12-15 02:15:01,288 | INFO | File Uploaded to Staging: Uploaded item ID LCR23130 to staging bucket at staging/from_20250506_to_20250730/LCR23130.html.
+2025-12-15 02:15:01,289 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23130 into staging collection.
+2025-12-15 02:15:01,296 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052868.
+2025-12-15 02:15:01,301 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052868 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052868.html.
+2025-12-15 02:15:01,302 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052868 into staging collection.
+2025-12-15 02:15:01,310 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053858.
+2025-12-15 02:15:01,315 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053858 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053858.html.
+2025-12-15 02:15:01,316 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053858 into staging collection.
+2025-12-15 02:15:01,345 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00048850.
+2025-12-15 02:15:01,350 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00048850 to staging bucket at staging/from_20250506_to_20250730/ADJ-00048850.html.
+2025-12-15 02:15:01,351 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00048850 into staging collection.
+2025-12-15 02:15:01,358 | INFO | HTML Transformation: Applied HTML cleaning for item ID MND255.
+2025-12-15 02:15:01,362 | INFO | File Uploaded to Staging: Uploaded item ID MND255 to staging bucket at staging/from_20250506_to_20250730/MND255.html.
+2025-12-15 02:15:01,363 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID MND255 into staging collection.
+2025-12-15 02:15:01,371 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2516.
+2025-12-15 02:15:01,376 | INFO | File Uploaded to Staging: Uploaded item ID DWT2516 to staging bucket at staging/from_20250506_to_20250730/DWT2516.html.
+2025-12-15 02:15:01,377 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2516 into staging collection.
+2025-12-15 02:15:01,384 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2515.
+2025-12-15 02:15:01,389 | INFO | File Uploaded to Staging: Uploaded item ID DWT2515 to staging bucket at staging/from_20250506_to_20250730/DWT2515.html.
+2025-12-15 02:15:01,392 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2515 into staging collection.
+2025-12-15 02:15:01,402 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2515.
+2025-12-15 02:15:01,407 | INFO | File Uploaded to Staging: Uploaded item ID UDD2515 to staging bucket at staging/from_20250506_to_20250730/UDD2515.html.
+2025-12-15 02:15:01,412 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2515 into staging collection.
+2025-12-15 02:15:01,420 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2517.
+2025-12-15 02:15:01,425 | INFO | File Uploaded to Staging: Uploaded item ID DWT2517 to staging bucket at staging/from_20250506_to_20250730/DWT2517.html.
+2025-12-15 02:15:01,426 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2517 into staging collection.
+2025-12-15 02:15:01,434 | INFO | HTML Transformation: Applied HTML cleaning for item ID TED257.
+2025-12-15 02:15:01,438 | INFO | File Uploaded to Staging: Uploaded item ID TED257 to staging bucket at staging/from_20250506_to_20250730/TED257.html.
+2025-12-15 02:15:01,442 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID TED257 into staging collection.
+2025-12-15 02:15:01,461 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00039406.
+2025-12-15 02:15:01,476 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00039406 to staging bucket at staging/from_20250506_to_20250730/ADJ-00039406.html.
+2025-12-15 02:15:01,478 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00039406 into staging collection.
+2025-12-15 02:15:01,498 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00043910.
+2025-12-15 02:15:01,523 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00043910 to staging bucket at staging/from_20250506_to_20250730/ADJ-00043910.html.
+2025-12-15 02:15:01,525 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00043910 into staging collection.
+2025-12-15 02:15:01,534 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056366.
+2025-12-15 02:15:01,540 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056366 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056366.html.
+2025-12-15 02:15:01,541 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056366 into staging collection.
+2025-12-15 02:15:01,549 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00048798.
+2025-12-15 02:15:01,554 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00048798 to staging bucket at staging/from_20250506_to_20250730/ADJ-00048798.html.
+2025-12-15 02:15:01,556 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00048798 into staging collection.
+2025-12-15 02:15:01,566 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055580.
+2025-12-15 02:15:01,573 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055580 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055580.html.
+2025-12-15 02:15:01,576 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055580 into staging collection.
+2025-12-15 02:15:01,583 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054476.
+2025-12-15 02:15:01,591 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054476 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054476.html.
+2025-12-15 02:15:01,594 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054476 into staging collection.
+2025-12-15 02:15:01,602 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053311.
+2025-12-15 02:15:01,609 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053311 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053311.html.
+2025-12-15 02:15:01,611 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053311 into staging collection.
+2025-12-15 02:15:01,619 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052242.
+2025-12-15 02:15:01,625 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052242 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052242.html.
+2025-12-15 02:15:01,627 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052242 into staging collection.
+2025-12-15 02:15:01,634 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003613.
+2025-12-15 02:15:01,639 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003613 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003613.html.
+2025-12-15 02:15:01,640 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003613 into staging collection.
+2025-12-15 02:15:01,646 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055293.
+2025-12-15 02:15:01,650 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055293 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055293.html.
+2025-12-15 02:15:01,651 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055293 into staging collection.
+2025-12-15 02:15:01,656 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23149.
+2025-12-15 02:15:01,660 | INFO | File Uploaded to Staging: Uploaded item ID LCR23149 to staging bucket at staging/from_20250506_to_20250730/LCR23149.html.
+2025-12-15 02:15:01,662 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23149 into staging collection.
+2025-12-15 02:15:01,667 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23150.
+2025-12-15 02:15:01,671 | INFO | File Uploaded to Staging: Uploaded item ID LCR23150 to staging bucket at staging/from_20250506_to_20250730/LCR23150.html.
+2025-12-15 02:15:01,672 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23150 into staging collection.
+2025-12-15 02:15:01,679 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2526.
+2025-12-15 02:15:01,686 | INFO | File Uploaded to Staging: Uploaded item ID PWD2526 to staging bucket at staging/from_20250506_to_20250730/PWD2526.html.
+2025-12-15 02:15:01,687 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2526 into staging collection.
+2025-12-15 02:15:01,693 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23151.
+2025-12-15 02:15:01,697 | INFO | File Uploaded to Staging: Uploaded item ID LCR23151 to staging bucket at staging/from_20250506_to_20250730/LCR23151.html.
+2025-12-15 02:15:01,698 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23151 into staging collection.
+2025-12-15 02:15:01,704 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2525.
+2025-12-15 02:15:01,713 | INFO | File Uploaded to Staging: Uploaded item ID PWD2525 to staging bucket at staging/from_20250506_to_20250730/PWD2525.html.
+2025-12-15 02:15:01,714 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2525 into staging collection.
+2025-12-15 02:15:01,720 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23153.
+2025-12-15 02:15:01,723 | INFO | File Uploaded to Staging: Uploaded item ID LCR23153 to staging bucket at staging/from_20250506_to_20250730/LCR23153.html.
+2025-12-15 02:15:01,725 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23153 into staging collection.
+2025-12-15 02:15:01,731 | INFO | HTML Transformation: Applied HTML cleaning for item ID HSD2514.
+2025-12-15 02:15:01,735 | INFO | File Uploaded to Staging: Uploaded item ID HSD2514 to staging bucket at staging/from_20250506_to_20250730/HSD2514.html.
+2025-12-15 02:15:01,736 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID HSD2514 into staging collection.
+2025-12-15 02:15:01,742 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2555.
+2025-12-15 02:15:01,748 | INFO | File Uploaded to Staging: Uploaded item ID EDA2555 to staging bucket at staging/from_20250506_to_20250730/EDA2555.html.
+2025-12-15 02:15:01,749 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2555 into staging collection.
+2025-12-15 02:15:01,759 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055489.
+2025-12-15 02:15:01,770 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055489 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055489.html.
+2025-12-15 02:15:01,775 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055489 into staging collection.
+2025-12-15 02:15:01,786 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054194.
+2025-12-15 02:15:01,798 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054194 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054194.html.
+2025-12-15 02:15:01,799 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054194 into staging collection.
+2025-12-15 02:15:01,807 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2523 .
+2025-12-15 02:15:01,814 | INFO | File Uploaded to Staging: Uploaded item ID PWD2523  to staging bucket at staging/from_20250506_to_20250730/PWD2523 .html.
+2025-12-15 02:15:01,815 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2523  into staging collection.
+2025-12-15 02:15:01,826 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23146.
+2025-12-15 02:15:01,834 | INFO | File Uploaded to Staging: Uploaded item ID LCR23146 to staging bucket at staging/from_20250506_to_20250730/LCR23146.html.
+2025-12-15 02:15:01,836 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23146 into staging collection.
+2025-12-15 02:15:01,845 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2530.
+2025-12-15 02:15:01,851 | INFO | File Uploaded to Staging: Uploaded item ID DWT2530 to staging bucket at staging/from_20250506_to_20250730/DWT2530.html.
+2025-12-15 02:15:01,856 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2530 into staging collection.
+2025-12-15 02:15:01,862 | INFO | HTML Transformation: Applied HTML cleaning for item ID MND256.
+2025-12-15 02:15:01,867 | INFO | File Uploaded to Staging: Uploaded item ID MND256 to staging bucket at staging/from_20250506_to_20250730/MND256.html.
+2025-12-15 02:15:01,869 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID MND256 into staging collection.
+2025-12-15 02:15:01,874 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00047374.
+2025-12-15 02:15:01,880 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00047374 to staging bucket at staging/from_20250506_to_20250730/ADJ-00047374.html.
+2025-12-15 02:15:01,881 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00047374 into staging collection.
+2025-12-15 02:15:01,887 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054227.
+2025-12-15 02:15:01,893 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054227 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054227.html.
+2025-12-15 02:15:01,895 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054227 into staging collection.
+2025-12-15 02:15:01,903 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051479.
+2025-12-15 02:15:01,909 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051479 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051479.html.
+2025-12-15 02:15:01,911 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051479 into staging collection.
+2025-12-15 02:15:01,925 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051548.
+2025-12-15 02:15:01,932 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051548 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051548.html.
+2025-12-15 02:15:01,934 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051548 into staging collection.
+2025-12-15 02:15:01,942 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054590.
+2025-12-15 02:15:01,949 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054590 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054590.html.
+2025-12-15 02:15:01,952 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054590 into staging collection.
+2025-12-15 02:15:01,957 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051198.
+2025-12-15 02:15:01,970 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051198 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051198.html.
+2025-12-15 02:15:01,986 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051198 into staging collection.
+2025-12-15 02:15:01,993 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056573.
+2025-12-15 02:15:01,999 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056573 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056573.html.
+2025-12-15 02:15:02,001 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056573 into staging collection.
+2025-12-15 02:15:02,009 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23142 .
+2025-12-15 02:15:02,017 | INFO | File Uploaded to Staging: Uploaded item ID LCR23142  to staging bucket at staging/from_20250506_to_20250730/LCR23142 .html.
+2025-12-15 02:15:02,018 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23142  into staging collection.
+2025-12-15 02:15:02,028 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053753.
+2025-12-15 02:15:02,033 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053753 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053753.html.
+2025-12-15 02:15:02,034 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053753 into staging collection.
+2025-12-15 02:15:02,058 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23143.
+2025-12-15 02:15:02,062 | INFO | File Uploaded to Staging: Uploaded item ID LCR23143 to staging bucket at staging/from_20250506_to_20250730/LCR23143.html.
+2025-12-15 02:15:02,063 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23143 into staging collection.
+2025-12-15 02:15:02,068 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23139.
+2025-12-15 02:15:02,074 | INFO | File Uploaded to Staging: Uploaded item ID LCR23139 to staging bucket at staging/from_20250506_to_20250730/LCR23139.html.
+2025-12-15 02:15:02,075 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23139 into staging collection.
+2025-12-15 02:15:02,082 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046767.
+2025-12-15 02:15:02,087 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046767 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046767.html.
+2025-12-15 02:15:02,088 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046767 into staging collection.
+2025-12-15 02:15:02,098 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053346.
+2025-12-15 02:15:02,104 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053346 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053346.html.
+2025-12-15 02:15:02,105 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053346 into staging collection.
+2025-12-15 02:15:02,111 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00002648.
+2025-12-15 02:15:02,115 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00002648 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00002648.html.
+2025-12-15 02:15:02,116 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00002648 into staging collection.
+2025-12-15 02:15:02,121 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00000778.
+2025-12-15 02:15:02,125 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00000778 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00000778.html.
+2025-12-15 02:15:02,126 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00000778 into staging collection.
+2025-12-15 02:15:02,133 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055154.
+2025-12-15 02:15:02,139 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055154 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055154.html.
+2025-12-15 02:15:02,140 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055154 into staging collection.
+2025-12-15 02:15:02,147 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00048733.
+2025-12-15 02:15:02,152 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00048733 to staging bucket at staging/from_20250506_to_20250730/ADJ-00048733.html.
+2025-12-15 02:15:02,160 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00048733 into staging collection.
+2025-12-15 02:15:02,169 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00002816.
+2025-12-15 02:15:02,176 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00002816 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00002816.html.
+2025-12-15 02:15:02,178 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00002816 into staging collection.
+2025-12-15 02:15:02,188 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053216.
+2025-12-15 02:15:02,203 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053216 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053216.html.
+2025-12-15 02:15:02,206 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053216 into staging collection.
+2025-12-15 02:15:02,217 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003230.
+2025-12-15 02:15:02,224 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003230 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003230.html.
+2025-12-15 02:15:02,225 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003230 into staging collection.
+2025-12-15 02:15:02,233 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055993.
+2025-12-15 02:15:02,239 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055993 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055993.html.
+2025-12-15 02:15:02,241 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055993 into staging collection.
+2025-12-15 02:15:02,248 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056629.
+2025-12-15 02:15:02,254 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056629 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056629.html.
+2025-12-15 02:15:02,255 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056629 into staging collection.
+2025-12-15 02:15:02,262 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055292.
+2025-12-15 02:15:02,268 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055292 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055292.html.
+2025-12-15 02:15:02,269 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055292 into staging collection.
+2025-12-15 02:15:02,277 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00048560.
+2025-12-15 02:15:02,282 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00048560 to staging bucket at staging/from_20250506_to_20250730/ADJ-00048560.html.
+2025-12-15 02:15:02,283 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00048560 into staging collection.
+2025-12-15 02:15:02,292 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054787.
+2025-12-15 02:15:02,298 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054787 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054787.html.
+2025-12-15 02:15:02,299 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054787 into staging collection.
+2025-12-15 02:15:02,306 | INFO | HTML Transformation: Applied HTML cleaning for item ID DWT2514.
+2025-12-15 02:15:02,312 | INFO | File Uploaded to Staging: Uploaded item ID DWT2514 to staging bucket at staging/from_20250506_to_20250730/DWT2514.html.
+2025-12-15 02:15:02,313 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID DWT2514 into staging collection.
+2025-12-15 02:15:02,320 | INFO | HTML Transformation: Applied HTML cleaning for item ID MWD251.
+2025-12-15 02:15:02,326 | INFO | File Uploaded to Staging: Uploaded item ID MWD251 to staging bucket at staging/from_20250506_to_20250730/MWD251.html.
+2025-12-15 02:15:02,327 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID MWD251 into staging collection.
+2025-12-15 02:15:02,337 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050615.
+2025-12-15 02:15:02,343 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050615 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050615.html.
+2025-12-15 02:15:02,344 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050615 into staging collection.
+2025-12-15 02:15:02,350 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054665.
+2025-12-15 02:15:02,354 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054665 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054665.html.
+2025-12-15 02:15:02,355 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054665 into staging collection.
+2025-12-15 02:15:02,362 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051123.
+2025-12-15 02:15:02,366 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051123 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051123.html.
+2025-12-15 02:15:02,367 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051123 into staging collection.
+2025-12-15 02:15:02,373 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00045966.
+2025-12-15 02:15:02,378 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00045966 to staging bucket at staging/from_20250506_to_20250730/ADJ-00045966.html.
+2025-12-15 02:15:02,379 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00045966 into staging collection.
+2025-12-15 02:15:02,389 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053831.
+2025-12-15 02:15:02,395 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053831 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053831.html.
+2025-12-15 02:15:02,402 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053831 into staging collection.
+2025-12-15 02:15:02,413 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050573.
+2025-12-15 02:15:02,418 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050573 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050573.html.
+2025-12-15 02:15:02,419 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050573 into staging collection.
+2025-12-15 02:15:02,430 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050569.
+2025-12-15 02:15:02,435 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050569 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050569.html.
+2025-12-15 02:15:02,436 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050569 into staging collection.
+2025-12-15 02:15:02,443 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00043991.
+2025-12-15 02:15:02,449 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00043991 to staging bucket at staging/from_20250506_to_20250730/ADJ-00043991.html.
+2025-12-15 02:15:02,450 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00043991 into staging collection.
+2025-12-15 02:15:02,461 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052619.
+2025-12-15 02:15:02,465 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052619 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052619.html.
+2025-12-15 02:15:02,466 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052619 into staging collection.
+2025-12-15 02:15:02,472 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23162.
+2025-12-15 02:15:02,476 | INFO | File Uploaded to Staging: Uploaded item ID LCR23162 to staging bucket at staging/from_20250506_to_20250730/LCR23162.html.
+2025-12-15 02:15:02,477 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23162 into staging collection.
+2025-12-15 02:15:02,485 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052484.
+2025-12-15 02:15:02,490 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052484 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052484.html.
+2025-12-15 02:15:02,491 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052484 into staging collection.
+2025-12-15 02:15:02,497 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003088.
+2025-12-15 02:15:02,500 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003088 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003088.html.
+2025-12-15 02:15:02,501 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003088 into staging collection.
+2025-12-15 02:15:02,507 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23159.
+2025-12-15 02:15:02,511 | INFO | File Uploaded to Staging: Uploaded item ID LCR23159 to staging bucket at staging/from_20250506_to_20250730/LCR23159.html.
+2025-12-15 02:15:02,512 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23159 into staging collection.
+2025-12-15 02:15:02,519 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23171.
+2025-12-15 02:15:02,532 | INFO | File Uploaded to Staging: Uploaded item ID LCR23171 to staging bucket at staging/from_20250506_to_20250730/LCR23171.html.
+2025-12-15 02:15:02,536 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23171 into staging collection.
+2025-12-15 02:15:02,547 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051701.
+2025-12-15 02:15:02,556 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051701 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051701.html.
+2025-12-15 02:15:02,562 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051701 into staging collection.
+2025-12-15 02:15:02,569 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23170.
+2025-12-15 02:15:02,582 | INFO | File Uploaded to Staging: Uploaded item ID LCR23170 to staging bucket at staging/from_20250506_to_20250730/LCR23170.html.
+2025-12-15 02:15:02,586 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23170 into staging collection.
+2025-12-15 02:15:02,597 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056344.
+2025-12-15 02:15:02,603 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056344 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056344.html.
+2025-12-15 02:15:02,604 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056344 into staging collection.
+2025-12-15 02:15:02,613 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00049679.
+2025-12-15 02:15:02,619 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00049679 to staging bucket at staging/from_20250506_to_20250730/ADJ-00049679.html.
+2025-12-15 02:15:02,625 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00049679 into staging collection.
+2025-12-15 02:15:02,634 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055861.
+2025-12-15 02:15:02,641 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055861 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055861.html.
+2025-12-15 02:15:02,645 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055861 into staging collection.
+2025-12-15 02:15:02,652 | INFO | HTML Transformation: Applied HTML cleaning for item ID PDD2511.
+2025-12-15 02:15:02,659 | INFO | File Uploaded to Staging: Uploaded item ID PDD2511 to staging bucket at staging/from_20250506_to_20250730/PDD2511.html.
+2025-12-15 02:15:02,661 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PDD2511 into staging collection.
+2025-12-15 02:15:02,668 | INFO | HTML Transformation: Applied HTML cleaning for item ID AWD252.
+2025-12-15 02:15:02,673 | INFO | File Uploaded to Staging: Uploaded item ID AWD252 to staging bucket at staging/from_20250506_to_20250730/AWD252.html.
+2025-12-15 02:15:02,675 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID AWD252 into staging collection.
+2025-12-15 02:15:02,701 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052091.
+2025-12-15 02:15:02,708 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052091 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052091.html.
+2025-12-15 02:15:02,709 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052091 into staging collection.
+2025-12-15 02:15:02,717 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051571.
+2025-12-15 02:15:02,722 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051571 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051571.html.
+2025-12-15 02:15:02,723 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051571 into staging collection.
+2025-12-15 02:15:02,729 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055337.
+2025-12-15 02:15:02,734 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055337 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055337.html.
+2025-12-15 02:15:02,735 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055337 into staging collection.
+2025-12-15 02:15:02,743 | INFO | HTML Transformation: Applied HTML cleaning for item ID HSD2515.
+2025-12-15 02:15:02,748 | INFO | File Uploaded to Staging: Uploaded item ID HSD2515 to staging bucket at staging/from_20250506_to_20250730/HSD2515.html.
+2025-12-15 02:15:02,749 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID HSD2515 into staging collection.
+2025-12-15 02:15:02,754 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23165.
+2025-12-15 02:15:02,758 | INFO | File Uploaded to Staging: Uploaded item ID LCR23165 to staging bucket at staging/from_20250506_to_20250730/LCR23165.html.
+2025-12-15 02:15:02,759 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23165 into staging collection.
+2025-12-15 02:15:02,765 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055172.
+2025-12-15 02:15:02,769 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055172 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055172.html.
+2025-12-15 02:15:02,771 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055172 into staging collection.
+2025-12-15 02:15:02,777 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051258.
+2025-12-15 02:15:02,782 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051258 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051258.html.
+2025-12-15 02:15:02,783 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051258 into staging collection.
+2025-12-15 02:15:02,793 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00052496.
+2025-12-15 02:15:02,798 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00052496 to staging bucket at staging/from_20250506_to_20250730/ADJ-00052496.html.
+2025-12-15 02:15:02,799 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00052496 into staging collection.
+2025-12-15 02:15:02,806 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046166.
+2025-12-15 02:15:02,810 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046166 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046166.html.
+2025-12-15 02:15:02,812 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046166 into staging collection.
+2025-12-15 02:15:02,817 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23163.
+2025-12-15 02:15:02,821 | INFO | File Uploaded to Staging: Uploaded item ID LCR23163 to staging bucket at staging/from_20250506_to_20250730/LCR23163.html.
+2025-12-15 02:15:02,822 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23163 into staging collection.
+2025-12-15 02:15:02,830 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053352.
+2025-12-15 02:15:02,834 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053352 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053352.html.
+2025-12-15 02:15:02,835 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053352 into staging collection.
+2025-12-15 02:15:02,842 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00046165.
+2025-12-15 02:15:02,847 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00046165 to staging bucket at staging/from_20250506_to_20250730/ADJ-00046165.html.
+2025-12-15 02:15:02,848 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00046165 into staging collection.
+2025-12-15 02:15:02,854 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00057272.
+2025-12-15 02:15:02,858 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00057272 to staging bucket at staging/from_20250506_to_20250730/ADJ-00057272.html.
+2025-12-15 02:15:02,859 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00057272 into staging collection.
+2025-12-15 02:15:02,865 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00057090.
+2025-12-15 02:15:02,869 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00057090 to staging bucket at staging/from_20250506_to_20250730/ADJ-00057090.html.
+2025-12-15 02:15:02,870 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00057090 into staging collection.
+2025-12-15 02:15:02,875 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055445.
+2025-12-15 02:15:02,879 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055445 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055445.html.
+2025-12-15 02:15:02,880 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055445 into staging collection.
+2025-12-15 02:15:02,888 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054905.
+2025-12-15 02:15:02,893 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054905 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054905.html.
+2025-12-15 02:15:02,896 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054905 into staging collection.
+2025-12-15 02:15:02,903 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00058542.
+2025-12-15 02:15:02,909 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00058542 to staging bucket at staging/from_20250506_to_20250730/ADJ-00058542.html.
+2025-12-15 02:15:02,911 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00058542 into staging collection.
+2025-12-15 02:15:02,918 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2557.
+2025-12-15 02:15:02,928 | INFO | File Uploaded to Staging: Uploaded item ID EDA2557 to staging bucket at staging/from_20250506_to_20250730/EDA2557.html.
+2025-12-15 02:15:02,933 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2557 into staging collection.
+2025-12-15 02:15:02,940 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003394.
+2025-12-15 02:15:02,947 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003394 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003394.html.
+2025-12-15 02:15:02,958 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003394 into staging collection.
+2025-12-15 02:15:02,973 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056466.
+2025-12-15 02:15:02,979 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056466 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056466.html.
+2025-12-15 02:15:02,981 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056466 into staging collection.
+2025-12-15 02:15:02,989 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23161.
+2025-12-15 02:15:02,994 | INFO | File Uploaded to Staging: Uploaded item ID LCR23161 to staging bucket at staging/from_20250506_to_20250730/LCR23161.html.
+2025-12-15 02:15:02,995 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23161 into staging collection.
+2025-12-15 02:15:03,001 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23148.
+2025-12-15 02:15:03,005 | INFO | File Uploaded to Staging: Uploaded item ID LCR23148 to staging bucket at staging/from_20250506_to_20250730/LCR23148.html.
+2025-12-15 02:15:03,007 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23148 into staging collection.
+2025-12-15 02:15:03,013 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23169.
+2025-12-15 02:15:03,018 | INFO | File Uploaded to Staging: Uploaded item ID LCR23169 to staging bucket at staging/from_20250506_to_20250730/LCR23169.html.
+2025-12-15 02:15:03,019 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23169 into staging collection.
+2025-12-15 02:15:03,026 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23167.
+2025-12-15 02:15:03,032 | INFO | File Uploaded to Staging: Uploaded item ID LCR23167 to staging bucket at staging/from_20250506_to_20250730/LCR23167.html.
+2025-12-15 02:15:03,033 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23167 into staging collection.
+2025-12-15 02:15:03,038 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23168.
+2025-12-15 02:15:03,043 | INFO | File Uploaded to Staging: Uploaded item ID LCR23168 to staging bucket at staging/from_20250506_to_20250730/LCR23168.html.
+2025-12-15 02:15:03,044 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23168 into staging collection.
+2025-12-15 02:15:03,050 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23110.
+2025-12-15 02:15:03,054 | INFO | File Uploaded to Staging: Uploaded item ID LCR23110 to staging bucket at staging/from_20250506_to_20250730/LCR23110.html.
+2025-12-15 02:15:03,055 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23110 into staging collection.
+2025-12-15 02:15:03,061 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23166.
+2025-12-15 02:15:03,066 | INFO | File Uploaded to Staging: Uploaded item ID LCR23166 to staging bucket at staging/from_20250506_to_20250730/LCR23166.html.
+2025-12-15 02:15:03,067 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23166 into staging collection.
+2025-12-15 02:15:03,077 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051161.
+2025-12-15 02:15:03,082 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051161 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051161.html.
+2025-12-15 02:15:03,083 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051161 into staging collection.
+2025-12-15 02:15:03,088 | INFO | HTML Transformation: Applied HTML cleaning for item ID UDD2514.
+2025-12-15 02:15:03,092 | INFO | File Uploaded to Staging: Uploaded item ID UDD2514 to staging bucket at staging/from_20250506_to_20250730/UDD2514.html.
+2025-12-15 02:15:03,093 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID UDD2514 into staging collection.
+2025-12-15 02:15:03,099 | INFO | HTML Transformation: Applied HTML cleaning for item ID PWD2519.
+2025-12-15 02:15:03,102 | INFO | File Uploaded to Staging: Uploaded item ID PWD2519 to staging bucket at staging/from_20250506_to_20250730/PWD2519.html.
+2025-12-15 02:15:03,104 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID PWD2519 into staging collection.
+2025-12-15 02:15:03,110 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00030949.
+2025-12-15 02:15:03,114 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00030949 to staging bucket at staging/from_20250506_to_20250730/ADJ-00030949.html.
+2025-12-15 02:15:03,115 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00030949 into staging collection.
+2025-12-15 02:15:03,123 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00055624.
+2025-12-15 02:15:03,129 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00055624 to staging bucket at staging/from_20250506_to_20250730/ADJ-00055624.html.
+2025-12-15 02:15:03,130 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00055624 into staging collection.
+2025-12-15 02:15:03,139 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054550.
+2025-12-15 02:15:03,145 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054550 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054550.html.
+2025-12-15 02:15:03,146 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054550 into staging collection.
+2025-12-15 02:15:03,152 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051692.
+2025-12-15 02:15:03,157 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051692 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051692.html.
+2025-12-15 02:15:03,158 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051692 into staging collection.
+2025-12-15 02:15:03,167 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050848.
+2025-12-15 02:15:03,171 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050848 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050848.html.
+2025-12-15 02:15:03,173 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050848 into staging collection.
+2025-12-15 02:15:03,179 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00054329.
+2025-12-15 02:15:03,184 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00054329 to staging bucket at staging/from_20250506_to_20250730/ADJ-00054329.html.
+2025-12-15 02:15:03,185 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00054329 into staging collection.
+2025-12-15 02:15:03,191 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056897.
+2025-12-15 02:15:03,196 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056897 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056897.html.
+2025-12-15 02:15:03,197 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056897 into staging collection.
+2025-12-15 02:15:03,203 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003402.
+2025-12-15 02:15:03,207 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003402 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003402.html.
+2025-12-15 02:15:03,208 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003402 into staging collection.
+2025-12-15 02:15:03,215 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003397.
+2025-12-15 02:15:03,220 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003397 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003397.html.
+2025-12-15 02:15:03,221 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003397 into staging collection.
+2025-12-15 02:15:03,227 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003403.
+2025-12-15 02:15:03,230 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003403 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003403.html.
+2025-12-15 02:15:03,231 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003403 into staging collection.
+2025-12-15 02:15:03,237 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23164.
+2025-12-15 02:15:03,241 | INFO | File Uploaded to Staging: Uploaded item ID LCR23164 to staging bucket at staging/from_20250506_to_20250730/LCR23164.html.
+2025-12-15 02:15:03,242 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23164 into staging collection.
+2025-12-15 02:15:03,254 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050384.
+2025-12-15 02:15:03,260 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050384 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050384.html.
+2025-12-15 02:15:03,261 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050384 into staging collection.
+2025-12-15 02:15:03,285 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2545.
+2025-12-15 02:15:03,290 | INFO | File Uploaded to Staging: Uploaded item ID EDA2545 to staging bucket at staging/from_20250506_to_20250730/EDA2545.html.
+2025-12-15 02:15:03,291 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2545 into staging collection.
+2025-12-15 02:15:03,301 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050407.
+2025-12-15 02:15:03,307 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050407 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050407.html.
+2025-12-15 02:15:03,308 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050407 into staging collection.
+2025-12-15 02:15:03,314 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00057343.
+2025-12-15 02:15:03,320 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00057343 to staging bucket at staging/from_20250506_to_20250730/ADJ-00057343.html.
+2025-12-15 02:15:03,323 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00057343 into staging collection.
+2025-12-15 02:15:03,332 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056175.
+2025-12-15 02:15:03,338 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056175 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056175.html.
+2025-12-15 02:15:03,340 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056175 into staging collection.
+2025-12-15 02:15:03,346 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR-SC-00003815.
+2025-12-15 02:15:03,358 | INFO | File Uploaded to Staging: Uploaded item ID IR-SC-00003815 to staging bucket at staging/from_20250506_to_20250730/IR-SC-00003815.html.
+2025-12-15 02:15:03,360 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR-SC-00003815 into staging collection.
+2025-12-15 02:15:03,368 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056254.
+2025-12-15 02:15:03,373 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056254 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056254.html.
+2025-12-15 02:15:03,377 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056254 into staging collection.
+2025-12-15 02:15:03,384 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056925.
+2025-12-15 02:15:03,390 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056925 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056925.html.
+2025-12-15 02:15:03,391 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056925 into staging collection.
+2025-12-15 02:15:03,398 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056763.
+2025-12-15 02:15:03,403 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056763 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056763.html.
+2025-12-15 02:15:03,405 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056763 into staging collection.
+2025-12-15 02:15:03,414 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056898.
+2025-12-15 02:15:03,418 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056898 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056898.html.
+2025-12-15 02:15:03,420 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056898 into staging collection.
+2025-12-15 02:15:03,427 | INFO | HTML Transformation: Applied HTML cleaning for item ID EDA2558.
+2025-12-15 02:15:03,432 | INFO | File Uploaded to Staging: Uploaded item ID EDA2558 to staging bucket at staging/from_20250506_to_20250730/EDA2558.html.
+2025-12-15 02:15:03,434 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID EDA2558 into staging collection.
+2025-12-15 02:15:03,440 | INFO | HTML Transformation: Applied HTML cleaning for item ID LCR23160.
+2025-12-15 02:15:03,443 | INFO | File Uploaded to Staging: Uploaded item ID LCR23160 to staging bucket at staging/from_20250506_to_20250730/LCR23160.html.
+2025-12-15 02:15:03,444 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID LCR23160 into staging collection.
+2025-12-15 02:15:03,450 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR - SC - 00003395.
+2025-12-15 02:15:03,454 | INFO | File Uploaded to Staging: Uploaded item ID IR - SC - 00003395 to staging bucket at staging/from_20250506_to_20250730/IR - SC - 00003395.html.
+2025-12-15 02:15:03,455 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR - SC - 00003395 into staging collection.
+2025-12-15 02:15:03,462 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00051732.
+2025-12-15 02:15:03,467 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00051732 to staging bucket at staging/from_20250506_to_20250730/ADJ-00051732.html.
+2025-12-15 02:15:03,468 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00051732 into staging collection.
+2025-12-15 02:15:03,474 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00056703.
+2025-12-15 02:15:03,477 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00056703 to staging bucket at staging/from_20250506_to_20250730/ADJ-00056703.html.
+2025-12-15 02:15:03,478 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00056703 into staging collection.
+2025-12-15 02:15:03,484 | INFO | HTML Transformation: Applied HTML cleaning for item ID IR-SC-00003396.
+2025-12-15 02:15:03,488 | INFO | File Uploaded to Staging: Uploaded item ID IR-SC-00003396 to staging bucket at staging/from_20250506_to_20250730/IR-SC-00003396.html.
+2025-12-15 02:15:03,489 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID IR-SC-00003396 into staging collection.
+2025-12-15 02:15:03,498 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00053997.
+2025-12-15 02:15:03,503 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00053997 to staging bucket at staging/from_20250506_to_20250730/ADJ-00053997.html.
+2025-12-15 02:15:03,505 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00053997 into staging collection.
+2025-12-15 02:15:03,511 | INFO | HTML Transformation: Applied HTML cleaning for item ID ADJ-00050917.
+2025-12-15 02:15:03,516 | INFO | File Uploaded to Staging: Uploaded item ID ADJ-00050917 to staging bucket at staging/from_20250506_to_20250730/ADJ-00050917.html.
+2025-12-15 02:15:03,517 | INFO | Metadata Upserted to Staging: Upserted metadata for item ID ADJ-00050917 into staging collection.

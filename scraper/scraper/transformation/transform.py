@@ -34,7 +34,6 @@ class Transform:
         self.stgMinioClient = MinioClient(bucketName='staging')
         self.mongoClient = MongoDBClient()
 
-
     def apply(self):
         """
             Main method to run the transformation process.
@@ -43,17 +42,22 @@ class Transform:
         """
         self.helperClass.logAction('info', 'Transformation Started', 'fetching metadata from landing collection.')
         # Get landing collection
-        lndItems = self.mongoClient.finditems('lnd_documents_metadata', self.start_date, self.end_date)
+        lndItems = self.mongoClient.findItems('lnd_documents_metadata')
+
+        startfilter =  datetime.strptime(self.start_date, "%Y-%m-%d")
+        endFilter = datetime.strptime(self.end_date, "%Y-%m-%d")
         
         self.helperClass.logAction('info', 'Metadata Fetched', f'Number of items fetched: {len(lndItems)}. Beginning transformation process.')
 
-        stgFolder = f'from_{self.start_date}_to_{self.end_date}'
+        stgFolder = f"from_{self.start_date.replace('-', '')}_to_{self.end_date.replace('-', '')}"
 
         for item in lndItems:
-            try:
-                self.processRecord(item, stgFolder)
-            except Exception as e:
-                self.helperClass.logAction('error', 'Error in Transformation', f'Error processing item with ID {item["Id"]}: {str(e)}')
+            itemDate = datetime.strptime(item['date'], "%d/%m/%Y")
+            if startfilter <= itemDate <= endFilter:
+                try:
+                    self.processRecord(item, stgFolder)
+                except Exception as e:
+                    self.helperClass.logAction('error', 'Error in Transformation', f'Error processing item with ID {item["Id"]}: {str(e)}')
         
     def processRecord(self, item, stgFolder):
         """

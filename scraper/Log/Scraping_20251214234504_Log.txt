@@ -104,3 +104,1522 @@
 2025-12-14 23:45:04,878 | INFO | Parition Date: Parition Date Extracted: 27-11-2025
 2025-12-14 23:45:04,879 | INFO | Initaite reqeusts: Request 32: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=08/12/2025&to=14/12/2025&body=3,15376,1,2
 2025-12-14 23:45:04,879 | INFO | Parition Date: Parition Date Extracted: 08-12-2025
+2025-12-14 23:45:15,764 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:15,781 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:15,782 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:19,919 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:19,932 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:19,934 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:24,653 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:24,665 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:24,667 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:29,237 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:29,250 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:29,265 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:33,672 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:33,702 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:33,703 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:37,980 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:38,001 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:38,011 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:42,276 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:42,289 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:42,290 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:46,492 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:46,511 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:46,511 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:51,101 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:51,111 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:51,112 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:55,358 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:55,366 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:55,367 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:45:59,856 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:45:59,872 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:45:59,877 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:04,796 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:04,824 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:46:04,825 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:09,434 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:09,464 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:46:09,468 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:15,195 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:15,203 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:46:15,204 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:19,826 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:19,846 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:46:19,856 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:24,289 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:24,303 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:46:24,308 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:28,838 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:28,855 | INFO | Pagination: Following pageNumber=2
+2025-12-14 23:46:28,856 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:32,509 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:32,521 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:46:32,521 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:36,400 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:36,421 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:46:36,423 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:40,425 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:40,434 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:46:40,435 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:44,150 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:44,158 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:46:44,159 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:49,263 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:49,280 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:46:49,281 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:53,058 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:53,074 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:46:53,075 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:46:57,575 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:46:57,587 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:46:57,587 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:01,670 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:01,682 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:01,683 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:05,484 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:05,492 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:05,493 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:10,061 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:10,074 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:10,074 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:13,714 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:13,723 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:13,723 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:17,469 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:17,478 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:17,479 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:21,126 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:21,147 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:21,147 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:24,700 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:24,717 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:24,718 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:28,378 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:28,393 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:28,394 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:32,154 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:32,179 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:32,182 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:35,899 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:35,911 | INFO | Pagination: Following pageNumber=3
+2025-12-14 23:47:35,912 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:39,739 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:39,771 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:47:39,785 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:43,393 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:43,405 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:47:43,406 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:47,107 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:47,120 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:47:47,126 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:50,711 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:50,722 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:47:50,723 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:54,278 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:54,287 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:47:57,865 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:47:57,879 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:47:57,880 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:01,852 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:01,862 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:01,863 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:05,782 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:05,797 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:05,799 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:09,605 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:09,618 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:09,620 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:13,506 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:13,514 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:17,336 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:17,345 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:17,345 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:21,080 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:21,092 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:21,093 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:24,801 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:24,809 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:24,809 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:28,497 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:28,506 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:28,514 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:32,436 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:32,450 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:32,452 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:36,221 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:36,251 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:36,254 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:40,146 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:40,161 | INFO | Pagination: Following pageNumber=4
+2025-12-14 23:48:40,162 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:44,001 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:44,035 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:48:44,045 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:49,080 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:49,117 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:48:49,122 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:53,533 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:53,540 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:57,435 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:48:57,445 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:48:57,449 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:48:57,676 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:49:04,480 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:04,514 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:04,515 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:08,241 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:08,248 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:12,137 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:12,145 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:12,149 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:16,275 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:16,283 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:16,284 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:16,484 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:49:21,877 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:21,888 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:21,889 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:25,972 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:25,983 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:25,984 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:30,022 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:30,034 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:30,035 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:34,120 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:34,147 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:34,148 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:37,958 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:37,964 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:42,054 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:42,066 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:42,068 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:45,840 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:45,862 | INFO | Pagination: Following pageNumber=5
+2025-12-14 23:49:45,863 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:49,732 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:49,740 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:49:49,741 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:53,648 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:49:53,666 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:49:53,672 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:49:53,903 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:50:01,458 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:01,471 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:50:01,473 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:09,457 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:09,473 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:50:09,474 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:09,730 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:50:17,697 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:17,705 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:50:17,705 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:23,681 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:23,691 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:50:23,691 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:24,000 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:50:31,142 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:31,151 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:34,811 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:34,820 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:38,833 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:38,840 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:50:38,841 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:42,572 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:42,591 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:50:42,594 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:42,831 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:50:48,270 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:48,275 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:52,064 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:52,070 | INFO | Pagination: Following pageNumber=6
+2025-12-14 23:50:52,071 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:55,706 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:55,712 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:59,390 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:50:59,416 | INFO | Pagination: Following pageNumber=7
+2025-12-14 23:50:59,416 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:50:59,810 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:01,840 | INFO | Parse PDF, Docx, Doc File: PDF, Doc, or Docx File Detected.
+2025-12-14 23:51:06,161 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:06,182 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:10,194 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:10,205 | INFO | Pagination: Following pageNumber=7
+2025-12-14 23:51:10,206 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:10,406 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:16,612 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:16,630 | INFO | Pagination: Following pageNumber=7
+2025-12-14 23:51:16,631 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:20,268 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:20,274 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:20,509 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:21,891 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:23,541 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:28,079 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:28,086 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:31,992 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:32,002 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:32,162 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:33,547 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:38,536 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:38,542 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:38,739 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:44,960 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:44,968 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:45,251 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:47,646 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:48,663 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:53,546 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:53,552 | INFO | Pagination: Following pageNumber=8
+2025-12-14 23:51:53,553 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:53,754 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:51:58,685 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:51:58,692 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:51:58,881 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:01,565 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:02,747 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:03,785 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:04,664 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:05,721 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:06,976 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:07,946 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:09,446 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:10,697 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:12,199 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:13,474 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:14,972 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:15,951 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:20,184 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-14 23:52:20,194 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-14 23:52:20,417 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:21,932 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:23,478 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:24,782 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:26,228 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:27,388 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:28,706 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:29,912 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:31,067 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:32,539 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:33,846 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:35,331 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:36,655 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:37,782 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:39,145 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:40,067 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:41,284 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:42,095 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:42,863 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:44,433 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:45,314 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:45,877 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:47,092 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:48,437 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:49,626 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:51,172 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:52,161 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:53,326 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:54,250 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:55,673 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:56,820 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:58,531 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:52:59,643 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:01,041 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:02,317 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:03,352 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:04,791 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:06,109 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:07,485 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:08,713 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:10,348 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:11,278 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:12,093 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:14,913 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:15,195 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:16,839 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:17,858 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:19,154 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:20,350 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:21,922 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:22,618 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:23,499 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:24,818 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:25,547 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:26,661 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:28,152 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:29,307 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:30,835 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:32,470 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:33,701 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:34,375 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:35,750 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:36,688 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:38,136 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:39,623 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:40,790 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:42,299 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:43,666 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:44,684 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:45,899 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:47,325 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:48,789 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:49,593 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:51,094 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:52,366 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:53,664 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:54,919 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:55,998 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:57,013 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:57,983 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:53:59,407 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:00,874 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:02,282 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:03,399 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:04,727 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:05,499 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:06,590 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:07,186 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:08,262 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:08,860 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:10,285 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:11,669 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:12,924 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:14,194 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:14,980 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:15,944 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:17,081 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:18,472 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:20,057 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:21,244 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:22,196 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:23,271 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:24,573 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:25,993 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:27,537 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:28,455 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:29,236 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:30,442 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:31,876 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:33,278 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:33,877 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:35,430 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:36,642 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:37,335 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:38,612 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:39,288 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:40,622 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:41,984 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:43,443 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:44,653 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:45,510 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:46,369 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:47,616 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:48,883 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:51,397 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:52,344 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:53,869 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:55,414 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:56,426 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:57,604 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:58,402 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:54:59,906 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:00,790 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:01,795 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:03,224 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:04,291 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:05,300 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:06,672 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:08,048 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:09,361 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:10,741 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:12,114 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:13,602 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:15,135 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:16,284 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:16,917 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:18,167 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:19,560 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:20,862 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:22,055 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:23,226 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:24,356 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:25,838 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:26,820 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:27,574 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:29,089 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:30,053 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:31,275 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:32,228 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:33,662 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:34,351 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:35,119 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:36,078 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:37,170 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:38,668 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:39,852 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:41,426 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:42,426 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:43,871 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:45,088 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:46,138 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:47,505 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:48,974 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:50,068 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:51,548 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:52,558 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:53,983 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:55,601 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:56,643 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:57,966 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:55:58,833 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:00,249 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:01,453 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:02,906 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:04,455 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:05,657 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:06,930 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:08,400 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:09,810 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:10,908 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:12,182 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:13,655 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:15,086 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:16,676 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:18,169 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:19,162 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:20,599 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:21,288 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:22,386 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:23,803 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:24,628 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:26,006 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:26,985 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:28,343 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:29,744 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:31,212 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:31,824 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:33,141 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:34,173 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:35,257 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:36,689 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:38,127 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:39,373 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:40,531 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:41,698 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:43,014 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:44,282 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:45,000 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:46,508 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:47,675 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:48,418 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:49,715 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:51,173 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:52,107 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:53,290 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:54,254 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:55,556 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:56,862 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:57,761 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:56:58,843 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:00,143 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:01,565 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:02,827 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:04,096 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:05,653 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:06,569 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:07,932 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:09,371 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:10,345 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:11,285 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:12,424 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:13,809 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:14,862 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:16,242 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:17,356 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:18,014 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:19,462 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:20,347 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:21,518 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:22,867 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:24,221 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:25,447 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:27,072 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:28,094 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:29,237 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:30,435 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:31,753 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:33,149 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:34,563 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:35,998 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:36,637 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:38,151 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:39,514 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:41,148 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:42,575 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:43,895 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:44,834 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:46,156 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:47,247 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:48,669 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:49,653 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:51,183 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:52,639 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:53,488 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:54,716 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:55,626 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:57,025 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:58,286 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:57:59,656 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:00,836 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:02,087 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:03,194 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:04,529 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:05,920 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:07,390 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:08,496 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:09,923 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:11,034 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:12,505 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:13,853 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:14,802 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:16,059 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:17,519 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:18,455 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:19,728 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:21,084 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:22,501 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:24,027 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:25,291 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:25,995 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:27,224 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:28,474 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:29,785 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:31,279 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:32,199 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:32,697 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:34,189 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:35,446 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:36,483 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:37,636 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:38,876 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:40,114 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:41,526 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:42,948 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:43,651 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:44,542 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:45,933 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:47,208 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:48,534 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:49,914 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:50,675 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:51,417 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:52,249 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:53,094 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:54,067 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:55,005 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:56,359 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:57,721 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:59,225 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:58:59,924 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:01,282 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:02,521 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:03,753 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:05,008 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:06,124 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:07,047 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:08,450 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:09,994 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:10,800 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:12,290 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:13,719 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:16,689 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:18,615 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:19,759 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:22,442 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:23,711 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:24,793 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:25,885 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:27,277 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:28,693 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:29,816 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:31,425 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:32,722 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:34,173 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:35,229 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:36,154 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:37,489 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:38,882 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:40,199 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:41,577 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:43,060 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:44,567 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:45,446 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:46,910 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:48,117 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:49,578 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:50,810 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:51,690 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:52,857 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:54,370 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:55,678 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:56,665 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:57,744 | INFO | Parse HTML File: HTML File Detected.
+2025-12-14 23:59:59,016 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:00,051 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:01,381 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:02,770 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:04,157 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:05,583 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:07,000 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:08,434 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:10,093 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:10,779 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:12,137 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:13,580 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:14,247 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:15,673 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:16,719 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:18,104 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:19,383 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:20,730 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:21,812 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:23,619 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:24,230 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:25,359 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:26,695 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:28,079 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:29,428 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:30,686 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:31,777 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:33,126 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:34,501 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:35,783 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:37,284 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:38,782 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:39,407 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:40,631 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:41,551 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:42,893 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:44,059 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:44,816 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:46,301 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:47,563 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:48,929 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:49,911 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:50,749 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:51,942 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:52,904 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:54,153 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:55,416 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:56,241 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:57,465 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:58,336 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:00:59,456 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:00,894 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:02,459 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:03,667 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:05,031 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:05,753 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:06,828 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:07,812 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:08,818 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:09,629 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:10,797 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:11,663 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:12,877 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:13,730 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:15,251 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:16,643 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:18,160 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:19,080 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:20,423 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:21,530 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:23,033 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:24,122 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:25,630 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:26,656 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:28,032 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:29,543 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:30,534 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:31,678 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:33,067 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:34,405 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:35,898 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:37,205 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:38,428 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:39,494 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:40,615 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:42,255 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:43,843 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:44,817 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:46,123 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:47,617 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:48,453 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:49,557 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:50,470 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:51,525 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:52,776 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:54,244 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:55,566 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:56,893 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:57,925 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:01:59,279 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:00,572 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:02,033 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:02,952 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:03,751 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:05,364 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:06,166 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:07,074 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:08,331 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:09,786 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:10,919 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:12,262 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:13,227 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:14,507 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:16,135 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:17,107 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:17,897 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:19,373 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:20,656 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:21,869 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:23,168 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:24,437 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:25,396 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:26,940 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:27,728 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:28,930 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:29,649 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:30,927 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:31,962 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:32,923 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:34,035 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:34,947 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:36,373 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:37,783 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:38,993 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:40,084 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:40,929 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:42,393 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:43,748 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:45,043 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:46,268 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:47,820 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:49,229 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:50,208 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:51,330 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:52,845 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:54,217 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:55,447 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:56,697 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:57,858 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:02:59,108 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:00,523 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:01,843 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:03,253 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:04,619 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:05,846 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:07,225 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:08,379 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:09,611 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:10,757 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:12,090 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:12,767 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:14,975 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:15,488 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:16,864 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:18,817 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:19,842 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:21,143 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:22,668 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:23,489 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:24,562 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:25,731 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:26,857 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:28,160 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:29,591 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:30,954 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:32,429 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:33,629 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:34,712 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:36,488 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:37,512 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:38,758 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:40,178 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:41,541 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:42,615 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:44,145 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:45,475 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:46,983 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:48,038 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:49,502 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:50,737 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:51,720 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:53,052 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:54,437 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:55,527 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:56,899 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:58,335 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:03:59,622 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:01,027 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:02,447 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:03,620 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:04,577 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:05,818 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:07,199 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:08,504 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:10,025 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:11,421 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:12,585 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:13,796 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:15,106 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:15,991 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:17,235 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:18,504 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:19,970 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:21,693 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:22,595 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:23,877 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:25,036 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:26,313 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:27,742 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:29,234 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:30,492 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:31,482 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:32,696 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:34,003 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:35,248 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:35,993 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:37,089 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:38,386 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:39,531 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:40,594 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:41,577 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:42,798 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:44,033 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:45,542 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:46,692 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:47,346 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:48,463 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:49,579 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:50,905 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:52,387 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:53,812 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:55,000 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:56,455 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:57,380 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:58,665 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:04:59,935 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:00,742 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:02,175 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:03,591 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:04,748 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:05,951 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:07,262 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:08,672 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:10,187 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:11,618 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:05:16,922 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:16,939 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:16,946 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:21,050 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:21,065 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:21,067 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:24,934 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:24,946 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:24,948 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:29,106 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:29,115 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:29,116 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:33,147 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:33,159 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:33,160 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:37,027 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:37,036 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:37,061 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:41,146 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:41,160 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:41,160 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:45,487 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:45,501 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:45,502 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:49,756 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:49,778 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:49,781 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:53,786 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:53,816 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:53,825 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:05:58,274 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:05:58,287 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:05:58,291 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:02,756 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:02,783 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:06:02,784 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:07,426 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:07,438 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:06:07,438 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:11,804 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:11,813 | INFO | Pagination: Following pageNumber=2
+2025-12-15 00:06:11,814 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:13,770 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:13,780 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:14,686 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:06:20,471 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:20,483 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:20,484 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:20,664 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:06:26,712 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:26,719 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:26,720 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:30,638 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:30,647 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:30,648 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:34,514 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:34,542 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:34,544 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:38,273 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:38,289 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:38,290 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:42,012 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:42,024 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:42,025 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:45,733 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:45,750 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:45,771 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:49,427 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:49,438 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:49,445 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:53,196 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:53,208 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:53,210 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:06:58,590 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:06:58,602 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:06:58,602 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:03,958 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:03,974 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:07:03,975 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:09,142 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:09,153 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:07:09,154 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:14,242 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:14,251 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:07:14,254 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:18,186 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:18,196 | INFO | Pagination: Following pageNumber=3
+2025-12-15 00:07:18,197 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:18,444 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:07:20,691 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:07:27,002 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:27,012 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:07:27,016 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:27,285 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:07:33,015 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:33,035 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:07:33,036 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:37,265 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:37,274 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:07:37,277 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:41,754 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:41,780 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:07:41,782 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:45,904 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:45,919 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:07:45,921 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:50,244 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:50,261 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:07:50,262 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:07:55,196 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:07:55,204 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:07:55,207 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:00,101 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:00,112 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:08:00,113 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:04,941 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:04,952 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:08:04,953 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:10,027 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:10,043 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:08:10,044 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:14,641 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:14,650 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:08:14,651 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:19,594 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:19,606 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:08:19,609 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:24,237 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:24,269 | INFO | Pagination: Following pageNumber=4
+2025-12-15 00:08:24,270 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:29,409 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:29,419 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:29,646 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:08:31,885 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:08:38,757 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:38,769 | INFO | Pagination: Following pageNumber=5
+2025-12-15 00:08:38,770 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:39,047 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:08:46,730 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:46,735 | INFO | Pagination: Following pageNumber=5
+2025-12-15 00:08:46,736 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:51,584 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:51,599 | INFO | Pagination: Following pageNumber=5
+2025-12-15 00:08:51,601 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:08:56,422 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:08:56,437 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:01,195 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:01,203 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:06,297 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:06,307 | INFO | Pagination: Following pageNumber=5
+2025-12-15 00:09:06,308 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:11,211 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:11,217 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:16,082 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:16,094 | INFO | Pagination: Following pageNumber=5
+2025-12-15 00:09:16,095 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:20,786 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:20,802 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:25,429 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:25,444 | INFO | Pagination: Following pageNumber=5
+2025-12-15 00:09:25,445 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:29,730 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:29,738 | INFO | Pagination: Following pageNumber=5
+2025-12-15 00:09:29,739 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:34,600 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:34,618 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:39,175 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:39,183 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:39,536 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:09:41,866 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:09:43,300 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:09:48,725 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:48,730 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:09:48,865 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:09:55,725 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:09:55,736 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:10:00,879 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:10:00,886 | INFO | Pagination: Following pageNumber=6
+2025-12-15 00:10:00,892 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:10:01,035 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:07,028 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:17,800 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:10:17,807 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:10:18,434 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:27,588 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:10:27,593 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:10:27,863 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:34,993 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:10:35,003 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:10:39,675 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:10:39,685 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:10:41,121 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:43,804 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:45,822 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:47,660 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:49,058 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:50,478 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:51,691 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:52,793 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:10:59,208 | INFO | Parse Response: parsing responses started, items extraction in progress.
+2025-12-15 00:10:59,214 | INFO | Parse Response: Parsing responses finished, items extraction is finalized.
+2025-12-15 00:10:59,459 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:03,134 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:05,197 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:06,682 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:07,816 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:09,162 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:10,476 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:11,730 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:13,354 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:14,375 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:15,607 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:16,978 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:19,503 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:20,316 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:20,732 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:22,561 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:23,033 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:24,351 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:26,306 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:26,798 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:29,196 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:30,372 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:31,768 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:33,334 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:34,465 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:35,555 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:36,923 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:38,655 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:39,826 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:41,377 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:42,984 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:43,856 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:44,983 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:46,158 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:47,285 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:48,856 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:50,084 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:52,640 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:53,286 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:54,403 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:55,601 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:56,317 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:58,508 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:11:59,234 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:00,743 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:02,520 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:03,315 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:04,692 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:05,937 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:08,281 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:08,542 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:09,313 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:10,720 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:11,995 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:13,672 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:14,410 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:15,560 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:17,090 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:18,006 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:18,937 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:20,935 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:21,553 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:22,837 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:23,713 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:25,011 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:26,445 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:27,365 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:29,075 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:30,088 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:31,358 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:33,128 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:33,988 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:35,486 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:37,389 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:38,081 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:39,545 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:40,006 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:41,618 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:43,246 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:43,985 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:45,484 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:46,927 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:48,151 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:49,081 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:51,057 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:51,376 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:52,812 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:53,613 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:54,858 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:57,261 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:12:57,617 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:00,248 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:00,869 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:02,317 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:03,303 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:04,614 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:06,714 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:07,241 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:08,211 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:09,718 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:10,753 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:11,430 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:12,960 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:13,934 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:15,092 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:16,498 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:17,972 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:18,675 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:20,129 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:21,191 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:22,514 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:23,410 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:24,866 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:26,114 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:26,955 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:28,441 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:29,343 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:30,011 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:31,275 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:32,613 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:33,614 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:35,012 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:36,532 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:37,980 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:39,374 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:40,816 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:41,943 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:43,265 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:43,775 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:45,002 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:46,221 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:47,076 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:48,447 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:48,997 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:50,061 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:51,104 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:52,246 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:53,874 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:55,058 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:56,426 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:57,552 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:58,575 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:13:59,731 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:00,919 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:02,179 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:03,584 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:04,769 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:06,293 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:07,479 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:08,768 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:09,445 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:10,817 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:11,917 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:12,909 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:14,502 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:15,722 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:17,075 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:17,986 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:19,379 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:20,262 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:21,073 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:22,182 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:23,617 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:24,492 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:25,875 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:26,953 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:28,126 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:28,942 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:30,459 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:31,825 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:33,325 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:34,330 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:36,060 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:36,588 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:38,135 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:39,387 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:40,906 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:41,541 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:42,389 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:43,860 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:45,057 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:46,186 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:47,581 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:48,982 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:50,401 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:51,495 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:52,972 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:54,157 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:55,073 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:56,503 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:57,844 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:14:59,005 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:00,324 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:01,567 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:03,126 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:04,342 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:05,744 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:07,045 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:08,329 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:10,086 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:10,647 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:11,250 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:12,739 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:13,871 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:15,233 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:16,529 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:17,985 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:18,962 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:19,901 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:21,311 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:22,999 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:23,497 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:24,329 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:25,427 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:26,446 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:27,463 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:28,643 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:29,813 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:30,787 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:32,243 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:33,786 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:34,880 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:36,079 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:37,541 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:38,577 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:39,658 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:41,153 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:42,611 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:43,664 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:44,831 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:46,057 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:47,463 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:48,657 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:49,704 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:50,725 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:52,031 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:53,482 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:54,558 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:56,060 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:57,298 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:58,267 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:15:59,417 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:00,510 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:01,500 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:02,758 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:04,312 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:05,881 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:06,982 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:08,383 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:09,349 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:10,445 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:12,052 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:13,385 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:14,430 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:15,921 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:17,410 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:18,972 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:20,309 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:21,711 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:22,830 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:24,298 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:25,412 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:26,721 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:27,926 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:29,223 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:30,495 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:31,313 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:32,643 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:33,982 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:35,557 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:36,923 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:38,128 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:39,058 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:40,485 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:41,797 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:42,794 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:43,789 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:44,855 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:45,636 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:46,865 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:48,040 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:49,474 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:50,687 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:51,989 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:53,132 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:54,597 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:56,123 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:57,490 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:16:58,932 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:00,070 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:01,389 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:02,057 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:03,709 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:04,630 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:06,164 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:07,380 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:08,938 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:10,404 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:11,853 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:13,163 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:14,623 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:15,799 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:17,665 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:18,574 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:19,703 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:20,654 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:21,886 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:23,115 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:24,180 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:25,360 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:26,765 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:27,838 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:29,436 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:30,376 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:31,755 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:32,951 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:34,468 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:35,749 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:36,666 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:38,006 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:39,406 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:40,594 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:42,109 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:43,568 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:45,019 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:46,241 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:47,772 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:48,142 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:49,158 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:50,223 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:50,796 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:51,960 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:53,055 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:54,377 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:55,064 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:56,232 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:57,741 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:17:59,239 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:00,533 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:01,820 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:03,416 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:04,691 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:05,897 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:07,503 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:08,373 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:09,634 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:10,837 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:11,658 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:12,385 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:13,708 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:14,776 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:16,418 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:17,419 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:18,101 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:19,531 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:20,807 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:22,353 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:23,979 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:25,566 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:26,591 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:27,886 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:29,107 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:30,644 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:31,586 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:32,604 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:33,982 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:35,768 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:36,960 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:38,306 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:39,373 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:40,316 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:41,768 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:42,658 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:43,957 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:44,828 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:45,983 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:47,357 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:48,837 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:50,343 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:51,221 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:52,820 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:54,225 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:55,638 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:56,666 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:57,700 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:18:59,463 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:00,798 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:01,756 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:03,244 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:04,838 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:05,818 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:07,268 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:08,420 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:09,346 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:10,213 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:11,552 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:12,900 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:14,060 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:15,419 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:16,778 | INFO | Parse HTML File: HTML File Detected.
+2025-12-15 00:19:17,965 | INFO | Parse HTML File: HTML File Detected.

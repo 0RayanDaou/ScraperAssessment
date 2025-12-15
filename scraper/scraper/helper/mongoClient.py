@@ -50,7 +50,7 @@ class MongoDBClient:
         # Upsert metadata to make sure than when scraping there are no duplicate values in the database
         collection.update_one(filterQuery, {'$set': dict(item)}, upsert=True)
 
-    def finditems(self, collectionName, start_date, end_date):
+    def findItems(self, collectionName):
         """
         Finds items in the specified collection within the given date range.
 
@@ -62,14 +62,7 @@ class MongoDBClient:
             list: A list of items found in the collection within the date range.
         """
         collection = self.getCollection(collectionName)
-        query = {
-            'date': {
-                '$gte': start_date,
-                '$lte': end_date
-            }
-        }
-        items = list(collection.find(query))
-        return items
+        return list(collection.find())
 
     def get_database(self, db_name):
         """
