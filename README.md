@@ -109,13 +109,13 @@ Used to create and log steps into a log file
 
 #### transform.py
 This applies to second part of assignment:
- 1- Fetch data from landing Metadata Layer
- 2- Downloads corresponding files from MinIO
- 3- Applies logic based on file Type:
+ - Fetch data from landing Metadata Layer
+ - Downloads corresponding files from MinIO
+ - Applies logic based on file Type:
  	- PDF / DOC / DOCX -> no content change
 	- HTML -> cleaned using BeautifulSoup
- 4- Recalculation of hash
- 5- Rename files
- 6- Upload to staging bucket
- 7 Upsert metadata to stg_documents_metadata with new file location, hash, and name
+ - Recalculation of hash
+ - Rename files
+ - Upload to staging bucket
+ - Upsert metadata to stg_documents_metadata with new file location, hash, and name
 
