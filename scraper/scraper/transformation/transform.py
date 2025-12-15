@@ -124,7 +124,7 @@ class Transform:
         """
         self.helperClass.logAction('info', 'Transformation Run', f'Starting transformation from {self.start_date} to {self.end_date}.'
         )
-        self.apply(None)
+        self.apply()
 
 if __name__ == "__main__":
     start_date = os.getenv("TRANSFORM_START_DATE")
