@@ -1,0 +1,106 @@
+2025-12-14 23:45:04,225 | INFO | Log Initiated
+2025-12-14 23:45:04,226 | INFO | Construct Urls: Starting.
+2025-12-14 23:45:04,227 | INFO | Construct Urls: Query: labour
+2025-12-14 23:45:04,228 | INFO | Construct Urls: Body: Labour Court,Workplace Relations Commission,Equality Tribunal,Employment Appeals Tribunal
+2025-12-14 23:45:04,228 | INFO | Construct Urls: Start Date: 01/01/2025
+2025-12-14 23:45:04,229 | INFO | Construct Urls: End Date: 14/12/2025
+2025-12-14 23:45:04,230 | INFO | Construct Urls: Partition: 10 days
+2025-12-14 23:45:04,235 | INFO | Construct Urls: URL 1: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=01/01/2025&to=11/01/2025&body=3,15376,1,2
+2025-12-14 23:45:04,236 | INFO | Construct Urls: URL 2: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=12/01/2025&to=22/01/2025&body=3,15376,1,2
+2025-12-14 23:45:04,237 | INFO | Construct Urls: URL 3: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=23/01/2025&to=02/02/2025&body=3,15376,1,2
+2025-12-14 23:45:04,237 | INFO | Construct Urls: URL 4: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=03/02/2025&to=13/02/2025&body=3,15376,1,2
+2025-12-14 23:45:04,238 | INFO | Construct Urls: URL 5: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=14/02/2025&to=24/02/2025&body=3,15376,1,2
+2025-12-14 23:45:04,240 | INFO | Construct Urls: URL 6: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=25/02/2025&to=07/03/2025&body=3,15376,1,2
+2025-12-14 23:45:04,241 | INFO | Construct Urls: URL 7: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=08/03/2025&to=18/03/2025&body=3,15376,1,2
+2025-12-14 23:45:04,241 | INFO | Construct Urls: URL 8: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=19/03/2025&to=29/03/2025&body=3,15376,1,2
+2025-12-14 23:45:04,242 | INFO | Construct Urls: URL 9: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=30/03/2025&to=09/04/2025&body=3,15376,1,2
+2025-12-14 23:45:04,242 | INFO | Construct Urls: URL 10: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=10/04/2025&to=20/04/2025&body=3,15376,1,2
+2025-12-14 23:45:04,243 | INFO | Construct Urls: URL 11: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=21/04/2025&to=01/05/2025&body=3,15376,1,2
+2025-12-14 23:45:04,243 | INFO | Construct Urls: URL 12: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=02/05/2025&to=12/05/2025&body=3,15376,1,2
+2025-12-14 23:45:04,244 | INFO | Construct Urls: URL 13: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=13/05/2025&to=23/05/2025&body=3,15376,1,2
+2025-12-14 23:45:04,244 | INFO | Construct Urls: URL 14: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=24/05/2025&to=03/06/2025&body=3,15376,1,2
+2025-12-14 23:45:04,245 | INFO | Construct Urls: URL 15: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=04/06/2025&to=14/06/2025&body=3,15376,1,2
+2025-12-14 23:45:04,246 | INFO | Construct Urls: URL 16: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=15/06/2025&to=25/06/2025&body=3,15376,1,2
+2025-12-14 23:45:04,247 | INFO | Construct Urls: URL 17: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=26/06/2025&to=06/07/2025&body=3,15376,1,2
+2025-12-14 23:45:04,247 | INFO | Construct Urls: URL 18: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=07/07/2025&to=17/07/2025&body=3,15376,1,2
+2025-12-14 23:45:04,248 | INFO | Construct Urls: URL 19: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=18/07/2025&to=28/07/2025&body=3,15376,1,2
+2025-12-14 23:45:04,249 | INFO | Construct Urls: URL 20: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=29/07/2025&to=08/08/2025&body=3,15376,1,2
+2025-12-14 23:45:04,249 | INFO | Construct Urls: URL 21: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=09/08/2025&to=19/08/2025&body=3,15376,1,2
+2025-12-14 23:45:04,250 | INFO | Construct Urls: URL 22: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=20/08/2025&to=30/08/2025&body=3,15376,1,2
+2025-12-14 23:45:04,250 | INFO | Construct Urls: URL 23: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=31/08/2025&to=10/09/2025&body=3,15376,1,2
+2025-12-14 23:45:04,252 | INFO | Construct Urls: URL 24: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=11/09/2025&to=21/09/2025&body=3,15376,1,2
+2025-12-14 23:45:04,252 | INFO | Construct Urls: URL 25: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=22/09/2025&to=02/10/2025&body=3,15376,1,2
+2025-12-14 23:45:04,253 | INFO | Construct Urls: URL 26: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=03/10/2025&to=13/10/2025&body=3,15376,1,2
+2025-12-14 23:45:04,253 | INFO | Construct Urls: URL 27: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=14/10/2025&to=24/10/2025&body=3,15376,1,2
+2025-12-14 23:45:04,254 | INFO | Construct Urls: URL 28: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=25/10/2025&to=04/11/2025&body=3,15376,1,2
+2025-12-14 23:45:04,254 | INFO | Construct Urls: URL 29: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=05/11/2025&to=15/11/2025&body=3,15376,1,2
+2025-12-14 23:45:04,255 | INFO | Construct Urls: URL 30: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=16/11/2025&to=26/11/2025&body=3,15376,1,2
+2025-12-14 23:45:04,255 | INFO | Construct Urls: URL 31: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=27/11/2025&to=07/12/2025&body=3,15376,1,2
+2025-12-14 23:45:04,255 | INFO | Construct Urls: URL 32: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=08/12/2025&to=14/12/2025&body=3,15376,1,2
+2025-12-14 23:45:04,256 | INFO | Construct Urls: Finished, 32 Urls will be used for scraping
+2025-12-14 23:45:04,256 | INFO | Spider Initiation: Done.
+2025-12-14 23:45:04,797 | INFO | Start requests: Traversing through requests started.
+2025-12-14 23:45:04,798 | INFO | Initaite reqeusts: Request 1: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=01/01/2025&to=11/01/2025&body=3,15376,1,2
+2025-12-14 23:45:04,801 | INFO | Parition Date: Parition Date Extracted: 01-01-2025
+2025-12-14 23:45:04,819 | INFO | Initaite reqeusts: Request 2: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=12/01/2025&to=22/01/2025&body=3,15376,1,2
+2025-12-14 23:45:04,820 | INFO | Parition Date: Parition Date Extracted: 12-01-2025
+2025-12-14 23:45:04,823 | INFO | Initaite reqeusts: Request 3: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=23/01/2025&to=02/02/2025&body=3,15376,1,2
+2025-12-14 23:45:04,825 | INFO | Parition Date: Parition Date Extracted: 23-01-2025
+2025-12-14 23:45:04,827 | INFO | Initaite reqeusts: Request 4: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=03/02/2025&to=13/02/2025&body=3,15376,1,2
+2025-12-14 23:45:04,828 | INFO | Parition Date: Parition Date Extracted: 03-02-2025
+2025-12-14 23:45:04,830 | INFO | Initaite reqeusts: Request 5: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=14/02/2025&to=24/02/2025&body=3,15376,1,2
+2025-12-14 23:45:04,831 | INFO | Parition Date: Parition Date Extracted: 14-02-2025
+2025-12-14 23:45:04,834 | INFO | Initaite reqeusts: Request 6: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=25/02/2025&to=07/03/2025&body=3,15376,1,2
+2025-12-14 23:45:04,836 | INFO | Parition Date: Parition Date Extracted: 25-02-2025
+2025-12-14 23:45:04,837 | INFO | Initaite reqeusts: Request 7: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=08/03/2025&to=18/03/2025&body=3,15376,1,2
+2025-12-14 23:45:04,838 | INFO | Parition Date: Parition Date Extracted: 08-03-2025
+2025-12-14 23:45:04,839 | INFO | Initaite reqeusts: Request 8: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=19/03/2025&to=29/03/2025&body=3,15376,1,2
+2025-12-14 23:45:04,840 | INFO | Parition Date: Parition Date Extracted: 19-03-2025
+2025-12-14 23:45:04,841 | INFO | Initaite reqeusts: Request 9: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=30/03/2025&to=09/04/2025&body=3,15376,1,2
+2025-12-14 23:45:04,841 | INFO | Parition Date: Parition Date Extracted: 30-03-2025
+2025-12-14 23:45:04,842 | INFO | Initaite reqeusts: Request 10: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=10/04/2025&to=20/04/2025&body=3,15376,1,2
+2025-12-14 23:45:04,842 | INFO | Parition Date: Parition Date Extracted: 10-04-2025
+2025-12-14 23:45:04,844 | INFO | Initaite reqeusts: Request 11: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=21/04/2025&to=01/05/2025&body=3,15376,1,2
+2025-12-14 23:45:04,845 | INFO | Parition Date: Parition Date Extracted: 21-04-2025
+2025-12-14 23:45:04,848 | INFO | Initaite reqeusts: Request 12: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=02/05/2025&to=12/05/2025&body=3,15376,1,2
+2025-12-14 23:45:04,849 | INFO | Parition Date: Parition Date Extracted: 02-05-2025
+2025-12-14 23:45:04,850 | INFO | Initaite reqeusts: Request 13: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=13/05/2025&to=23/05/2025&body=3,15376,1,2
+2025-12-14 23:45:04,851 | INFO | Parition Date: Parition Date Extracted: 13-05-2025
+2025-12-14 23:45:04,852 | INFO | Initaite reqeusts: Request 14: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=24/05/2025&to=03/06/2025&body=3,15376,1,2
+2025-12-14 23:45:04,853 | INFO | Parition Date: Parition Date Extracted: 24-05-2025
+2025-12-14 23:45:04,854 | INFO | Initaite reqeusts: Request 15: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=04/06/2025&to=14/06/2025&body=3,15376,1,2
+2025-12-14 23:45:04,854 | INFO | Parition Date: Parition Date Extracted: 04-06-2025
+2025-12-14 23:45:04,856 | INFO | Initaite reqeusts: Request 16: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=15/06/2025&to=25/06/2025&body=3,15376,1,2
+2025-12-14 23:45:04,856 | INFO | Parition Date: Parition Date Extracted: 15-06-2025
+2025-12-14 23:45:04,857 | INFO | Initaite reqeusts: Request 17: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=26/06/2025&to=06/07/2025&body=3,15376,1,2
+2025-12-14 23:45:04,858 | INFO | Parition Date: Parition Date Extracted: 26-06-2025
+2025-12-14 23:45:04,859 | INFO | Initaite reqeusts: Request 18: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=07/07/2025&to=17/07/2025&body=3,15376,1,2
+2025-12-14 23:45:04,860 | INFO | Parition Date: Parition Date Extracted: 07-07-2025
+2025-12-14 23:45:04,861 | INFO | Initaite reqeusts: Request 19: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=18/07/2025&to=28/07/2025&body=3,15376,1,2
+2025-12-14 23:45:04,862 | INFO | Parition Date: Parition Date Extracted: 18-07-2025
+2025-12-14 23:45:04,863 | INFO | Initaite reqeusts: Request 20: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=29/07/2025&to=08/08/2025&body=3,15376,1,2
+2025-12-14 23:45:04,864 | INFO | Parition Date: Parition Date Extracted: 29-07-2025
+2025-12-14 23:45:04,865 | INFO | Initaite reqeusts: Request 21: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=09/08/2025&to=19/08/2025&body=3,15376,1,2
+2025-12-14 23:45:04,866 | INFO | Parition Date: Parition Date Extracted: 09-08-2025
+2025-12-14 23:45:04,867 | INFO | Initaite reqeusts: Request 22: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=20/08/2025&to=30/08/2025&body=3,15376,1,2
+2025-12-14 23:45:04,867 | INFO | Parition Date: Parition Date Extracted: 20-08-2025
+2025-12-14 23:45:04,868 | INFO | Initaite reqeusts: Request 23: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=31/08/2025&to=10/09/2025&body=3,15376,1,2
+2025-12-14 23:45:04,868 | INFO | Parition Date: Parition Date Extracted: 31-08-2025
+2025-12-14 23:45:04,869 | INFO | Initaite reqeusts: Request 24: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=11/09/2025&to=21/09/2025&body=3,15376,1,2
+2025-12-14 23:45:04,869 | INFO | Parition Date: Parition Date Extracted: 11-09-2025
+2025-12-14 23:45:04,870 | INFO | Initaite reqeusts: Request 25: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=22/09/2025&to=02/10/2025&body=3,15376,1,2
+2025-12-14 23:45:04,870 | INFO | Parition Date: Parition Date Extracted: 22-09-2025
+2025-12-14 23:45:04,871 | INFO | Initaite reqeusts: Request 26: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=03/10/2025&to=13/10/2025&body=3,15376,1,2
+2025-12-14 23:45:04,871 | INFO | Parition Date: Parition Date Extracted: 03-10-2025
+2025-12-14 23:45:04,872 | INFO | Initaite reqeusts: Request 27: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=14/10/2025&to=24/10/2025&body=3,15376,1,2
+2025-12-14 23:45:04,873 | INFO | Parition Date: Parition Date Extracted: 14-10-2025
+2025-12-14 23:45:04,873 | INFO | Initaite reqeusts: Request 28: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=25/10/2025&to=04/11/2025&body=3,15376,1,2
+2025-12-14 23:45:04,874 | INFO | Parition Date: Parition Date Extracted: 25-10-2025
+2025-12-14 23:45:04,875 | INFO | Initaite reqeusts: Request 29: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=05/11/2025&to=15/11/2025&body=3,15376,1,2
+2025-12-14 23:45:04,875 | INFO | Parition Date: Parition Date Extracted: 05-11-2025
+2025-12-14 23:45:04,876 | INFO | Initaite reqeusts: Request 30: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=16/11/2025&to=26/11/2025&body=3,15376,1,2
+2025-12-14 23:45:04,876 | INFO | Parition Date: Parition Date Extracted: 16-11-2025
+2025-12-14 23:45:04,877 | INFO | Initaite reqeusts: Request 31: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=27/11/2025&to=07/12/2025&body=3,15376,1,2
+2025-12-14 23:45:04,878 | INFO | Parition Date: Parition Date Extracted: 27-11-2025
+2025-12-14 23:45:04,879 | INFO | Initaite reqeusts: Request 32: https://www.workplacerelations.ie/en/search/?decisions=1&q=%22labour%22&from=08/12/2025&to=14/12/2025&body=3,15376,1,2
+2025-12-14 23:45:04,879 | INFO | Parition Date: Parition Date Extracted: 08-12-2025

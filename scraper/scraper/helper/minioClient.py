@@ -16,7 +16,9 @@ class MinioClient:
             
         """
         minio_host = os.getenv('MINIO_HOST', 'localhost')
-        self.client = Minio(endpoint=f"{minio_host}:9000", access_key="minioadmin", secret_key="minioadmin", secure=False)
+        access_key = os.getenv("MINIO_ACCESS_KEY", "minioadmin")
+        secret_key = os.getenv("MINIO_SECRET_KEY", "minioadmin")
+        self.client = Minio(endpoint=f"{minio_host}:9000", access_key= access_key, secret_key= secret_key, secure=False)
         # Landing is the location of file we create in.
         self.bucket_name = bucketName
     

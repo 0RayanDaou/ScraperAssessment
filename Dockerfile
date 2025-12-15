@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY scraper/ .
 
-CMD ["scrapy", "crawl", "documents"]
+CMD ["bash"]

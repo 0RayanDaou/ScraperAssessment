@@ -1,7 +1,7 @@
 from scraper.helper.minioClient import MinioClient
 from scraper.helper.mongoClient import MongoDBClient
 from scraper.helper.HelperFunction import HelperFunction
-
+from scraper.exception.Exception import *
 from bs4 import BeautifulSoup
 from datetime import datetime
 from pathlib import Path
@@ -93,7 +93,7 @@ class Transform:
         # Upsert into staging collection
         self.mongoClient.upsertItem('stg_documents_metadata', {'Id': Id}, item)
         self.helperClass.logAction('info', 'Metadata Upserted to Staging', f'Upserted metadata for item ID {Id} into staging collection.')
-        
+
 
     def cleanHTML(self, rawContent):
         """
@@ -113,3 +113,12 @@ class Transform:
 
         return text.encode('utf-8')
 
+if __name__ == "__main__":
+    start_date = os.getenv("TRANSFORM_START_DATE")
+    end_date = os.getenv("TRANSFORM_END_DATE")
+
+    if not start_date or not end_date:
+        raise ValueError("TRANSFORM_START_DATE and TRANSFORM_END_DATE must be set")
+
+    transform = Transform(start_date=start_date, end_date=end_date)
+    transform.run()

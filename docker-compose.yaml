@@ -35,6 +35,7 @@ services:
   scraper:
     build: .
     container_name: documents_scraper
+    command: scrapy crawl documents
     depends_on:
       - mongo
       - minio
@@ -46,12 +47,20 @@ services:
     volumes:  
       - ./scraper/Log:/app/scraper/Log
   # Transformer service that will run the transformer code
-  transformer:
+  transform:
     build: .
     container_name: documents_transformer
+    command: python -m scraper.transformation.transform
     depends_on:
       - mongo
       - minio
+    environment:
+      MONGO_HOST: mongo
+      MINIO_HOST: minio
+      TRANSFORM_START_DATE: ${TRANSFORM_START_DATE}
+      TRANSFORM_END_DATE: ${TRANSFORM_END_DATE}
+    volumes:
+      - ./scraper/Log:/app/scraper/Log
 
 volumes:
   mongo_data:
