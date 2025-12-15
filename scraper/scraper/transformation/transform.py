@@ -30,8 +30,8 @@ class Transform:
         self.helperClass = HelperFunction( logFileFullPath = logFileName, loggerLevel='DEBUG')
         self.helperClass.logAction('info', 'Transformation Initiation', 'Done.')
         #Initiate MinIO and MongoDB clients
-        self.lndMinioClien = MinioClient(bucketName='landing')
-        self.stgMinioClien = MinioClient(bucketName='staging')
+        self.lndMinioClient = MinioClient(bucketName='landing')
+        self.stgMinioClient = MinioClient(bucketName='staging')
         self.mongoClient = MongoDBClient()
 
 
@@ -88,7 +88,7 @@ class Transform:
         stgObjectPath = f"{stgFolder}/{Id}.{extension}"
 
         # Upload to staging bucket
-        stgFilePath = self.stgMinioClien.upload(stgObjectPath, rawContent)
+        stgFilePath = self.stgMinioClient.upload(stgObjectPath, rawContent)
         self.helperClass.logAction('info', 'File Uploaded to Staging', f'Uploaded item ID {Id} to staging bucket at {stgFilePath}.')
         # Update metadata
         item['filePath'] = stgFilePath
@@ -117,6 +117,14 @@ class Transform:
         text = main.get_text(' ', strip=True) if main else soup.get_text(' ', strip=True)
 
         return text.encode('utf-8')
+    
+    def run(self):
+        """
+            Runs the transformation process.
+        """
+        self.helperClass.logAction('info', 'Transformation Run', f'Starting transformation from {self.start_date} to {self.end_date}.'
+        )
+        self.apply(None)
 
 if __name__ == "__main__":
     start_date = os.getenv("TRANSFORM_START_DATE")
