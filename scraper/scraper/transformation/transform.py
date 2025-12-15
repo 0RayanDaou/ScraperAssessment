@@ -35,16 +35,21 @@ class Transform:
         self.mongoClient = MongoDBClient()
 
 
-    def apply(self, data):
+    def apply(self):
+        """
+            Main method to run the transformation process.
+            Takes data from landing collection, applies transformations based on file type,
+            uploads to staging bucket, and updates metadata in staging collection.
+        """
         self.helperClass.logAction('info', 'Transformation Started', 'fetching metadata from landing collection.')
         # Get landing collection
-        lnditems = self.mongoClient.finditems('lnd_documents_metadata', self.start_date, self.end_date)
+        lndItems = self.mongoClient.finditems('lnd_documents_metadata', self.start_date, self.end_date)
         
-        self.helperClass.logAction('info', 'Metadata Fetched', f'Number of items fetched: {len(lnditems)}. Beginning transformation process.')
+        self.helperClass.logAction('info', 'Metadata Fetched', f'Number of items fetched: {len(lndItems)}. Beginning transformation process.')
 
         stgFolder = f'from_{self.start_date}_to_{self.end_date}'
 
-        for item in lnditems:
+        for item in lndItems:
             try:
                 self.processRecord(item, stgFolder)
             except Exception as e:
