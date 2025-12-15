@@ -119,3 +119,24 @@ This applies to second part of assignment:
  - Upload to staging bucket
  - Upsert metadata to stg_documents_metadata with new file location, hash, and name
 
+### Docker
+#### Dockerfile
+Builds a single python image with:
+ - Scrapy
+ - All dependencies
+ - Shared codebase
+Image is reused by both:
+ - Scraper service
+ - Transform service
+
+#### docker-compose.yaml
+Define services: 
+ - mongo
+ - minio
+ - scraper
+ - transform
+
+The above configurations allow:
+ - Independent execution
+ - Shared infrastructure
+ - Clean orchestration
