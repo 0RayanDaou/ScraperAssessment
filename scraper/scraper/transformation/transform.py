@@ -42,7 +42,7 @@ class Transform:
         
         self.helperClass.logAction('info', 'Metadata Fetched', f'Number of items fetched: {len(lnditems)}. Beginning transformation process.')
 
-        stgFolder = f'from_{self.start_date.replace('/', '-')}_to_{self.end_date.replace('/', '-')}'
+        stgFolder = f'from_{self.start_date}_to_{self.end_date}'
 
         for item in lnditems:
             try:
