@@ -1,7 +1,7 @@
 # ScraperAssessment
 The following is a repository that holds the solution developed for the Web Scraper Assessment requested by Kedra.
 
-## Improvements
+## Future Improvements
  - Enhance the role of the custom logger.
  - Enhance the role of the exception class.
  - Scheduling should be added.
